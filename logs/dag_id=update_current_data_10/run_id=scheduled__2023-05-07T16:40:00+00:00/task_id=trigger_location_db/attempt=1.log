@@ -1,0 +1,26 @@
+[2023-07-05T10:45:25.918+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: update_current_data_10.trigger_location_db scheduled__2023-05-07T16:40:00+00:00 [queued]>
+[2023-07-05T10:45:25.925+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: update_current_data_10.trigger_location_db scheduled__2023-05-07T16:40:00+00:00 [queued]>
+[2023-07-05T10:45:25.926+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-07-05T10:45:25.937+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): trigger_location_db> on 2023-05-07 16:40:00+00:00
+[2023-07-05T10:45:25.942+0100] {standard_task_runner.py:57} INFO - Started process 55551 to run task
+[2023-07-05T10:45:25.946+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'update_current_data_10', 'trigger_location_db', 'scheduled__2023-05-07T16:40:00+00:00', '--job-id', '483', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py', '--cfg-path', '/tmp/tmpjuc364jg']
+[2023-07-05T10:45:25.947+0100] {standard_task_runner.py:85} INFO - Job 483: Subtask trigger_location_db
+[2023-07-05T10:45:26.009+0100] {task_command.py:410} INFO - Running <TaskInstance: update_current_data_10.trigger_location_db scheduled__2023-05-07T16:40:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-05T10:45:26.104+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='update_current_data_10' AIRFLOW_CTX_TASK_ID='trigger_location_db' AIRFLOW_CTX_EXECUTION_DATE='2023-05-07T16:40:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-07T16:40:00+00:00'
+[2023-07-05T10:45:26.148+0100] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-05T10:45:26.164+0100] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=update_current_data_10, task_id=trigger_location_db, execution_date=20230507T164000, start_date=20230705T094525, end_date=20230705T094526
+[2023-07-05T10:45:26.198+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-05T10:45:26.230+0100] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-07-05T11:09:21.763+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: update_current_data_10.trigger_location_db scheduled__2023-05-07T16:40:00+00:00 [queued]>
+[2023-07-05T11:09:21.771+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: update_current_data_10.trigger_location_db scheduled__2023-05-07T16:40:00+00:00 [queued]>
+[2023-07-05T11:09:21.772+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-07-05T11:09:21.782+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): trigger_location_db> on 2023-05-07 16:40:00+00:00
+[2023-07-05T11:09:21.786+0100] {standard_task_runner.py:57} INFO - Started process 75770 to run task
+[2023-07-05T11:09:21.789+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'update_current_data_10', 'trigger_location_db', 'scheduled__2023-05-07T16:40:00+00:00', '--job-id', '781', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py', '--cfg-path', '/tmp/tmpgtuf9p9u']
+[2023-07-05T11:09:21.791+0100] {standard_task_runner.py:85} INFO - Job 781: Subtask trigger_location_db
+[2023-07-05T11:09:21.860+0100] {task_command.py:410} INFO - Running <TaskInstance: update_current_data_10.trigger_location_db scheduled__2023-05-07T16:40:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-05T11:09:21.964+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='update_current_data_10' AIRFLOW_CTX_TASK_ID='trigger_location_db' AIRFLOW_CTX_EXECUTION_DATE='2023-05-07T16:40:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-07T16:40:00+00:00'
+[2023-07-05T11:09:22.005+0100] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-05T11:09:22.021+0100] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=update_current_data_10, task_id=trigger_location_db, execution_date=20230507T164000, start_date=20230705T100921, end_date=20230705T100922
+[2023-07-05T11:09:22.041+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-05T11:09:22.088+0100] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

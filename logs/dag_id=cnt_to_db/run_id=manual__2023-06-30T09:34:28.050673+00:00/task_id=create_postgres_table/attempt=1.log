@@ -1,0 +1,52 @@
+[2023-06-30T10:34:30.662+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cnt_to_db.create_postgres_table manual__2023-06-30T09:34:28.050673+00:00 [queued]>
+[2023-06-30T10:34:30.672+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cnt_to_db.create_postgres_table manual__2023-06-30T09:34:28.050673+00:00 [queued]>
+[2023-06-30T10:34:30.673+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-06-30T10:34:30.684+0100] {taskinstance.py:1327} INFO - Executing <Task(PostgresOperator): create_postgres_table> on 2023-06-30 09:34:28.050673+00:00
+[2023-06-30T10:34:30.688+0100] {standard_task_runner.py:57} INFO - Started process 136361 to run task
+[2023-06-30T10:34:30.693+0100] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'cnt_to_db', 'create_postgres_table', 'manual__2023-06-30T09:34:28.050673+00:00', '--job-id', '16', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py', '--cfg-path', '/tmp/tmp_45iudfe']
+[2023-06-30T10:34:30.695+0100] {standard_task_runner.py:85} INFO - Job 16: Subtask create_postgres_table
+[2023-06-30T10:34:30.779+0100] {task_command.py:410} INFO - Running <TaskInstance: cnt_to_db.create_postgres_table manual__2023-06-30T09:34:28.050673+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-06-30T10:34:30.897+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='cnt_to_db' AIRFLOW_CTX_TASK_ID='create_postgres_table' AIRFLOW_CTX_EXECUTION_DATE='2023-06-30T09:34:28.050673+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-30T09:34:28.050673+00:00'
+[2023-06-30T10:34:30.898+0100] {sql.py:265} INFO - Executing: 
+                create table if not exists dag_runs (
+                id int NOT NULL AUTO_INCREMENT,
+                dt date,
+                dag_id character varying,
+                primary key (id)
+
+                )
+                
+                
+                
+[2023-06-30T10:34:30.916+0100] {base.py:73} INFO - Using connection ID 'postgres_localhost' for task execution.
+[2023-06-30T10:34:30.949+0100] {base.py:73} INFO - Using connection ID 'postgres_localhost' for task execution.
+[2023-06-30T10:34:30.960+0100] {sql.py:375} INFO - Running statement: 
+                create table if not exists dag_runs (
+                id int NOT NULL AUTO_INCREMENT,
+                dt date,
+                dag_id character varying,
+                primary key (id)
+
+                )
+                
+                
+                , parameters: None
+[2023-06-30T10:34:30.961+0100] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 271, in execute
+    output = hook.run(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 349, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 380, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.SyntaxError: syntax error at or near "AUTO_INCREMENT"
+LINE 3:                 id int NOT NULL AUTO_INCREMENT,
+                                        ^
+
+[2023-06-30T10:34:30.978+0100] {taskinstance.py:1345} INFO - Marking task as FAILED. dag_id=cnt_to_db, task_id=create_postgres_table, execution_date=20230630T093428, start_date=20230630T093430, end_date=20230630T093430
+[2023-06-30T10:34:30.991+0100] {standard_task_runner.py:104} ERROR - Failed to execute job 16 for task create_postgres_table (syntax error at or near "AUTO_INCREMENT"
+LINE 3:                 id int NOT NULL AUTO_INCREMENT,
+                                        ^
+; 136361)
+[2023-06-30T10:34:31.026+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-06-30T10:34:31.059+0100] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,22 @@
+[2023-07-02T09:24:46.496+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: init_db.extract_data_id manual__2023-07-02T08:24:43.496850+00:00 [queued]>
+[2023-07-02T09:24:46.505+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: init_db.extract_data_id manual__2023-07-02T08:24:43.496850+00:00 [queued]>
+[2023-07-02T09:24:46.505+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-02T09:24:46.518+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): extract_data_id> on 2023-07-02 08:24:43.496850+00:00
+[2023-07-02T09:24:46.522+0100] {standard_task_runner.py:57} INFO - Started process 14741 to run task
+[2023-07-02T09:24:46.528+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'init_db', 'extract_data_id', 'manual__2023-07-02T08:24:43.496850+00:00', '--job-id', '7', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/init_db.py', '--cfg-path', '/tmp/tmpievw4cy5']
+[2023-07-02T09:24:46.529+0100] {standard_task_runner.py:85} INFO - Job 7: Subtask extract_data_id
+[2023-07-02T09:24:46.601+0100] {task_command.py:410} INFO - Running <TaskInstance: init_db.extract_data_id manual__2023-07-02T08:24:43.496850+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-02T09:24:46.714+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='init_db' AIRFLOW_CTX_TASK_ID='extract_data_id' AIRFLOW_CTX_EXECUTION_DATE='2023-07-02T08:24:43.496850+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-02T08:24:43.496850+00:00'
+[2023-07-02T09:24:46.718+0100] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/./dags/tools/hist_day_data_fetch.py", line 114, in save_pd_csv
+    os.mkdir(path)
+FileExistsError: [Errno 17] File exists: '/home/haboubi/Desktop/api/API_weather/city_hist'
+[2023-07-02T09:24:46.734+0100] {taskinstance.py:1345} INFO - Marking task as FAILED. dag_id=init_db, task_id=extract_data_id, execution_date=20230702T082443, start_date=20230702T082446, end_date=20230702T082446
+[2023-07-02T09:24:46.745+0100] {standard_task_runner.py:104} ERROR - Failed to execute job 7 for task extract_data_id ([Errno 17] File exists: '/home/haboubi/Desktop/api/API_weather/city_hist'; 14741)
+[2023-07-02T09:24:46.779+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-07-02T09:24:46.810+0100] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

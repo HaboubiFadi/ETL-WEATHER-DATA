@@ -1,0 +1,36 @@
+[2023-06-30T10:40:45.168+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cnt_to_db.insert_into_table manual__2023-06-30T09:40:38.919942+00:00 [queued]>
+[2023-06-30T10:40:45.178+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cnt_to_db.insert_into_table manual__2023-06-30T09:40:38.919942+00:00 [queued]>
+[2023-06-30T10:40:45.178+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-06-30T10:40:45.191+0100] {taskinstance.py:1327} INFO - Executing <Task(PostgresOperator): insert_into_table> on 2023-06-30 09:40:38.919942+00:00
+[2023-06-30T10:40:45.194+0100] {standard_task_runner.py:57} INFO - Started process 138475 to run task
+[2023-06-30T10:40:45.198+0100] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'cnt_to_db', 'insert_into_table', 'manual__2023-06-30T09:40:38.919942+00:00', '--job-id', '20', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py', '--cfg-path', '/tmp/tmpn9pzpu1b']
+[2023-06-30T10:40:45.199+0100] {standard_task_runner.py:85} INFO - Job 20: Subtask insert_into_table
+[2023-06-30T10:40:45.270+0100] {task_command.py:410} INFO - Running <TaskInstance: cnt_to_db.insert_into_table manual__2023-06-30T09:40:38.919942+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-06-30T10:40:45.383+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='cnt_to_db' AIRFLOW_CTX_TASK_ID='insert_into_table' AIRFLOW_CTX_EXECUTION_DATE='2023-06-30T09:40:38.919942+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-30T09:40:38.919942+00:00'
+[2023-06-30T10:40:45.384+0100] {sql.py:265} INFO - Executing: 
+                insert into dag_runs (dt, dag_id) values ('2023-06-30','cnt_to_db')
+                
+                
+[2023-06-30T10:40:45.402+0100] {base.py:73} INFO - Using connection ID 'postgres_localhost' for task execution.
+[2023-06-30T10:40:45.434+0100] {base.py:73} INFO - Using connection ID 'postgres_localhost' for task execution.
+[2023-06-30T10:40:45.451+0100] {sql.py:375} INFO - Running statement: 
+                insert into dag_runs (dt, dag_id) values ('2023-06-30','cnt_to_db')
+                
+                , parameters: None
+[2023-06-30T10:40:45.453+0100] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/providers/common/sql/operators/sql.py", line 271, in execute
+    output = hook.run(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 349, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/providers/common/sql/hooks/sql.py", line 380, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "dag_runs_pkey"
+DETAIL:  Key (dt, dag_id)=(2023-06-30, cnt_to_db) already exists.
+
+[2023-06-30T10:40:45.475+0100] {taskinstance.py:1345} INFO - Marking task as FAILED. dag_id=cnt_to_db, task_id=insert_into_table, execution_date=20230630T094038, start_date=20230630T094045, end_date=20230630T094045
+[2023-06-30T10:40:45.493+0100] {standard_task_runner.py:104} ERROR - Failed to execute job 20 for task insert_into_table (duplicate key value violates unique constraint "dag_runs_pkey"
+DETAIL:  Key (dt, dag_id)=(2023-06-30, cnt_to_db) already exists.
+; 138475)
+[2023-06-30T10:40:45.530+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-06-30T10:40:45.564+0100] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

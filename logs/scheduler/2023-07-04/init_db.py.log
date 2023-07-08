@@ -1,0 +1,64 @@
+[2023-07-04T16:16:22.890+0100] {processor.py:157} INFO - Started process (PID=51947) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:16:22.894+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-04T16:16:22.895+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:16:22.895+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:16:24.025+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-04T16:16:24.033+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:16:24.087+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:16:24.087+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-04T16:16:24.110+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:16:24.110+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-04T16:16:24.131+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 1.246 seconds
+[2023-07-04T16:16:54.291+0100] {processor.py:157} INFO - Started process (PID=52262) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:16:54.293+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-04T16:16:54.294+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:16:54.293+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:16:55.098+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-04T16:16:55.127+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:16:55.243+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:16:55.243+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-04T16:16:55.293+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:16:55.292+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-04T16:16:55.336+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 1.050 seconds
+[2023-07-04T16:17:25.628+0100] {processor.py:157} INFO - Started process (PID=52616) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:17:25.630+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-04T16:17:25.631+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:17:25.631+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:17:26.306+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-04T16:17:26.317+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:17:26.362+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:17:26.362+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-04T16:17:26.391+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:17:26.391+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-04T16:17:26.413+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.801 seconds
+[2023-07-04T16:17:56.638+0100] {processor.py:157} INFO - Started process (PID=52943) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:17:56.641+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-04T16:17:56.643+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:17:56.643+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:17:57.295+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-04T16:17:57.310+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:17:57.394+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:17:57.393+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-04T16:17:57.463+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:17:57.462+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-04T16:17:57.493+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.866 seconds
+[2023-07-04T16:18:27.657+0100] {processor.py:157} INFO - Started process (PID=53532) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:18:27.658+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-04T16:18:27.659+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:18:27.659+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:18:28.288+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-04T16:18:28.299+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:18:28.340+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:18:28.339+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-04T16:18:28.363+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:18:28.363+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-04T16:18:28.396+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.745 seconds
+[2023-07-04T16:18:58.571+0100] {processor.py:157} INFO - Started process (PID=53770) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:18:58.575+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-04T16:18:58.577+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:18:58.577+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:18:59.195+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-04T16:18:59.202+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:18:59.240+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:18:59.240+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-04T16:18:59.261+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:18:59.260+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-04T16:18:59.278+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.721 seconds
+[2023-07-04T16:19:29.445+0100] {processor.py:157} INFO - Started process (PID=53983) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:19:29.448+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-04T16:19:29.451+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:19:29.450+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:19:30.137+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-04T16:19:30.153+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:19:30.203+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:19:30.203+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-04T16:19:30.225+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:19:30.225+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-04T16:19:30.244+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.813 seconds
+[2023-07-04T16:20:00.508+0100] {processor.py:157} INFO - Started process (PID=54235) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:20:00.512+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-04T16:20:00.516+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:20:00.515+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:20:01.116+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-04T16:20:01.128+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-04T16:20:01.181+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:20:01.180+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-04T16:20:01.212+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:20:01.212+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-04T16:20:01.234+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.733 seconds

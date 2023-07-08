@@ -1,0 +1,30 @@
+[2023-07-07T05:14:22.193+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: update_current_data_10.extract_current_data scheduled__2023-06-28T23:00:00+00:00 [queued]>
+[2023-07-07T05:14:22.203+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: update_current_data_10.extract_current_data scheduled__2023-06-28T23:00:00+00:00 [queued]>
+[2023-07-07T05:14:22.203+0100] {taskinstance.py:1308} INFO - Starting attempt 3 of 3
+[2023-07-07T05:14:22.214+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): extract_current_data> on 2023-06-28 23:00:00+00:00
+[2023-07-07T05:14:22.218+0100] {standard_task_runner.py:57} INFO - Started process 1039448 to run task
+[2023-07-07T05:14:22.221+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'update_current_data_10', 'extract_current_data', 'scheduled__2023-06-28T23:00:00+00:00', '--job-id', '16643', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py', '--cfg-path', '/tmp/tmpsczlnuxz']
+[2023-07-07T05:14:22.222+0100] {standard_task_runner.py:85} INFO - Job 16643: Subtask extract_current_data
+[2023-07-07T05:14:22.284+0100] {task_command.py:410} INFO - Running <TaskInstance: update_current_data_10.extract_current_data scheduled__2023-06-28T23:00:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-07T05:14:22.394+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='update_current_data_10' AIRFLOW_CTX_TASK_ID='extract_current_data' AIRFLOW_CTX_EXECUTION_DATE='2023-06-28T23:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-06-28T23:00:00+00:00'
+[2023-07-07T05:14:22.590+0100] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py", line 32, in extract_data
+    save_current_pd_csv()
+  File "/home/haboubi/Desktop/api/API_weather/./dags/current_data_fetch.py", line 79, in save_current_pd_csv
+    name='./'+directory+'/'+location_df.iloc[-1]['name']+ '.csv'
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/pandas/core/indexing.py", line 1103, in __getitem__
+    return self._getitem_axis(maybe_callable, axis=axis)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/pandas/core/indexing.py", line 1656, in _getitem_axis
+    self._validate_integer(key, axis)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/pandas/core/indexing.py", line 1589, in _validate_integer
+    raise IndexError("single positional indexer is out-of-bounds")
+IndexError: single positional indexer is out-of-bounds
+[2023-07-07T05:14:22.625+0100] {taskinstance.py:1345} INFO - Marking task as FAILED. dag_id=update_current_data_10, task_id=extract_current_data, execution_date=20230628T230000, start_date=20230707T041422, end_date=20230707T041422
+[2023-07-07T05:14:22.645+0100] {standard_task_runner.py:104} ERROR - Failed to execute job 16643 for task extract_current_data (single positional indexer is out-of-bounds; 1039448)
+[2023-07-07T05:14:22.675+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-07-07T05:14:22.718+0100] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

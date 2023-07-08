@@ -1,0 +1,53 @@
+[2023-07-03T18:46:17.706+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: updated_day_hist_forcast_data.load_updated_data manual__2023-07-03T17:44:50.242932+00:00 [queued]>
+[2023-07-03T18:46:17.715+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: updated_day_hist_forcast_data.load_updated_data manual__2023-07-03T17:44:50.242932+00:00 [queued]>
+[2023-07-03T18:46:17.715+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-07-03T18:46:17.728+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): load_updated_data> on 2023-07-03 17:44:50.242932+00:00
+[2023-07-03T18:46:17.733+0100] {standard_task_runner.py:57} INFO - Started process 55751 to run task
+[2023-07-03T18:46:17.738+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'updated_day_hist_forcast_data', 'load_updated_data', 'manual__2023-07-03T17:44:50.242932+00:00', '--job-id', '126', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py', '--cfg-path', '/tmp/tmpws96rfo1']
+[2023-07-03T18:46:17.739+0100] {standard_task_runner.py:85} INFO - Job 126: Subtask load_updated_data
+[2023-07-03T18:46:17.810+0100] {task_command.py:410} INFO - Running <TaskInstance: updated_day_hist_forcast_data.load_updated_data manual__2023-07-03T17:44:50.242932+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-03T18:46:17.917+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='updated_day_hist_forcast_data' AIRFLOW_CTX_TASK_ID='load_updated_data' AIRFLOW_CTX_EXECUTION_DATE='2023-07-03T17:44:50.242932+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-03T17:44:50.242932+00:00'
+[2023-07-03T18:46:17.925+0100] {logging_mixin.py:149} INFO - debug prb: Paris
+[2023-07-03T18:46:17.955+0100] {logging_mixin.py:149} INFO - last_time_updated: 2023-07-02
+[2023-07-03T18:46:17.965+0100] {logging_mixin.py:149} INFO - debug prb: London
+[2023-07-03T18:46:17.973+0100] {logging_mixin.py:149} INFO - last_time_updated: 2023-07-02
+[2023-07-03T18:46:17.979+0100] {logging_mixin.py:149} INFO - debug prb: Barcelona
+[2023-07-03T18:46:17.987+0100] {logging_mixin.py:149} INFO - last_time_updated: 2023-07-02
+[2023-07-03T18:46:17.993+0100] {logging_mixin.py:149} INFO - debug prb: Rome
+[2023-07-03T18:46:18.002+0100] {logging_mixin.py:149} INFO - last_time_updated: 2023-07-02
+[2023-07-03T18:46:18.009+0100] {logging_mixin.py:149} INFO - debug prb: New York
+[2023-07-03T18:46:18.017+0100] {logging_mixin.py:149} INFO - last_time_updated: 2023-07-02
+[2023-07-03T18:46:18.024+0100] {logging_mixin.py:149} INFO - debug prb: Tokyo
+[2023-07-03T18:46:18.033+0100] {logging_mixin.py:149} INFO - last_time_updated: 2023-07-02
+[2023-07-03T18:46:18.040+0100] {logging_mixin.py:149} INFO - debug prb: Istanbul
+[2023-07-03T18:46:18.048+0100] {logging_mixin.py:149} INFO - last_time_updated: 2023-07-02
+[2023-07-03T18:46:18.055+0100] {logging_mixin.py:149} INFO - debug prb: Dubai
+[2023-07-03T18:46:18.064+0100] {logging_mixin.py:149} INFO - last_time_updated: 2023-07-02
+[2023-07-03T18:46:18.070+0100] {logging_mixin.py:149} INFO - debug prb: Sydney
+[2023-07-03T18:46:18.080+0100] {logging_mixin.py:149} INFO - last_time_updated: 2023-07-02
+[2023-07-03T18:46:18.088+0100] {logging_mixin.py:149} INFO - debug prb: Bangkok
+[2023-07-03T18:46:18.098+0100] {logging_mixin.py:149} INFO - last_time_updated: 2023-07-02
+[2023-07-03T18:46:18.108+0100] {logging_mixin.py:149} INFO - debug prb: Amsterdam
+[2023-07-03T18:46:18.121+0100] {logging_mixin.py:149} INFO - last_time_updated: 2023-07-02
+[2023-07-03T18:46:18.128+0100] {logging_mixin.py:149} INFO - debug prb: Rio De Janeiro
+[2023-07-03T18:46:18.136+0100] {logging_mixin.py:149} INFO - last_time_updated: 2023-07-02
+[2023-07-03T18:46:18.145+0100] {logging_mixin.py:149} INFO - debug prb: Prague
+[2023-07-03T18:46:18.153+0100] {logging_mixin.py:149} INFO - last_time_updated: 2023-07-02
+[2023-07-03T18:46:18.163+0100] {logging_mixin.py:149} INFO - debug prb: Cape Town
+[2023-07-03T18:46:18.172+0100] {logging_mixin.py:149} INFO - last_time_updated: 2023-07-02
+[2023-07-03T18:46:18.183+0100] {logging_mixin.py:149} INFO - debug prb: Buenos Aires
+[2023-07-03T18:46:18.194+0100] {logging_mixin.py:149} INFO - last_time_updated: 2023-07-02
+[2023-07-03T18:46:18.201+0100] {logging_mixin.py:149} INFO - debug prb: Berlin
+[2023-07-03T18:46:18.212+0100] {logging_mixin.py:149} INFO - last_time_updated: 2023-07-02
+[2023-07-03T18:46:18.218+0100] {logging_mixin.py:149} INFO - debug prb: Singapore
+[2023-07-03T18:46:18.229+0100] {logging_mixin.py:149} INFO - last_time_updated: 2023-07-02
+[2023-07-03T18:46:18.236+0100] {logging_mixin.py:149} INFO - debug prb: Florence
+[2023-07-03T18:46:18.248+0100] {logging_mixin.py:149} INFO - last_time_updated: 2023-07-02
+[2023-07-03T18:46:18.255+0100] {logging_mixin.py:149} INFO - debug prb: San Francisco
+[2023-07-03T18:46:18.266+0100] {logging_mixin.py:149} INFO - last_time_updated: 2023-07-02
+[2023-07-03T18:46:18.277+0100] {logging_mixin.py:149} INFO - debug prb: Marrakech
+[2023-07-03T18:46:18.287+0100] {logging_mixin.py:149} INFO - last_time_updated: 2023-07-02
+[2023-07-03T18:46:18.298+0100] {python.py:183} INFO - Done. Returned value was: 0
+[2023-07-03T18:46:18.337+0100] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=updated_day_hist_forcast_data, task_id=load_updated_data, execution_date=20230703T174450, start_date=20230703T174617, end_date=20230703T174618
+[2023-07-03T18:46:18.390+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-03T18:46:18.418+0100] {taskinstance.py:2653} INFO - 2 downstream tasks scheduled from follow-on schedule check

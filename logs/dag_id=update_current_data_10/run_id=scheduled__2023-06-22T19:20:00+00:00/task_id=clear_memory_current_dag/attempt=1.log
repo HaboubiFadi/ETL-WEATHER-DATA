@@ -1,0 +1,13 @@
+[2023-07-07T03:12:39.480+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: update_current_data_10.clear_memory_current_dag scheduled__2023-06-22T19:20:00+00:00 [queued]>
+[2023-07-07T03:12:39.489+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: update_current_data_10.clear_memory_current_dag scheduled__2023-06-22T19:20:00+00:00 [queued]>
+[2023-07-07T03:12:39.489+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-07-07T03:12:39.500+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): clear_memory_current_dag> on 2023-06-22 19:20:00+00:00
+[2023-07-07T03:12:39.504+0100] {standard_task_runner.py:57} INFO - Started process 914494 to run task
+[2023-07-07T03:12:39.508+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'update_current_data_10', 'clear_memory_current_dag', 'scheduled__2023-06-22T19:20:00+00:00', '--job-id', '14787', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py', '--cfg-path', '/tmp/tmph6966mqg']
+[2023-07-07T03:12:39.509+0100] {standard_task_runner.py:85} INFO - Job 14787: Subtask clear_memory_current_dag
+[2023-07-07T03:12:39.572+0100] {task_command.py:410} INFO - Running <TaskInstance: update_current_data_10.clear_memory_current_dag scheduled__2023-06-22T19:20:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-07T03:12:39.675+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='update_current_data_10' AIRFLOW_CTX_TASK_ID='clear_memory_current_dag' AIRFLOW_CTX_EXECUTION_DATE='2023-06-22T19:20:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-06-22T19:20:00+00:00'
+[2023-07-07T03:12:39.676+0100] {python.py:183} INFO - Done. Returned value was: 0
+[2023-07-07T03:12:39.717+0100] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=update_current_data_10, task_id=clear_memory_current_dag, execution_date=20230622T192000, start_date=20230707T021239, end_date=20230707T021239
+[2023-07-07T03:12:39.762+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-07T03:12:39.794+0100] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

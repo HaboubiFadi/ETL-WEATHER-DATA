@@ -1,0 +1,35 @@
+[2023-07-06T21:56:04.721+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: update_current_data_10.load_current_data scheduled__2023-06-06T00:00:00+00:00 [queued]>
+[2023-07-06T21:56:04.730+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: update_current_data_10.load_current_data scheduled__2023-06-06T00:00:00+00:00 [queued]>
+[2023-07-06T21:56:04.730+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-07-06T21:56:04.741+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): load_current_data> on 2023-06-06 00:00:00+00:00
+[2023-07-06T21:56:04.745+0100] {standard_task_runner.py:57} INFO - Started process 550659 to run task
+[2023-07-06T21:56:04.748+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'update_current_data_10', 'load_current_data', 'scheduled__2023-06-06T00:00:00+00:00', '--job-id', '9768', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py', '--cfg-path', '/tmp/tmpxn_ch14v']
+[2023-07-06T21:56:04.750+0100] {standard_task_runner.py:85} INFO - Job 9768: Subtask load_current_data
+[2023-07-06T21:56:04.811+0100] {task_command.py:410} INFO - Running <TaskInstance: update_current_data_10.load_current_data scheduled__2023-06-06T00:00:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-06T21:56:04.915+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='update_current_data_10' AIRFLOW_CTX_TASK_ID='load_current_data' AIRFLOW_CTX_EXECUTION_DATE='2023-06-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-06-06T00:00:00+00:00'
+[2023-07-06T21:56:04.934+0100] {logging_mixin.py:149} INFO - ['Paris', datetime.date(2023, 7, 5)]
+[2023-07-06T21:56:04.956+0100] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py", line 54, in load_updated_data_db
+    loc=update_location_entite(loc)
+  File "/home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py", line 36, in update_location_entite
+    current=pd.read_csv(directory_hist,sep='\t')
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'current/Paris.csv'
+[2023-07-06T21:56:04.972+0100] {taskinstance.py:1345} INFO - Marking task as UP_FOR_RETRY. dag_id=update_current_data_10, task_id=load_current_data, execution_date=20230606T000000, start_date=20230706T205604, end_date=20230706T205604
+[2023-07-06T21:56:04.982+0100] {standard_task_runner.py:104} ERROR - Failed to execute job 9768 for task load_current_data ([Errno 2] No such file or directory: 'current/Paris.csv'; 550659)
+[2023-07-06T21:56:05.000+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-07-06T21:56:05.029+0100] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

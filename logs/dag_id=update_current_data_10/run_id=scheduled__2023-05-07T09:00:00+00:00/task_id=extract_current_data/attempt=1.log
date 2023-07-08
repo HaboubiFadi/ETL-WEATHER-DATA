@@ -1,0 +1,26 @@
+[2023-07-05T10:38:06.107+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: update_current_data_10.extract_current_data scheduled__2023-05-07T09:00:00+00:00 [queued]>
+[2023-07-05T10:38:06.116+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: update_current_data_10.extract_current_data scheduled__2023-05-07T09:00:00+00:00 [queued]>
+[2023-07-05T10:38:06.116+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-07-05T10:38:06.127+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): extract_current_data> on 2023-05-07 09:00:00+00:00
+[2023-07-05T10:38:06.131+0100] {standard_task_runner.py:57} INFO - Started process 49007 to run task
+[2023-07-05T10:38:06.134+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'update_current_data_10', 'extract_current_data', 'scheduled__2023-05-07T09:00:00+00:00', '--job-id', '357', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py', '--cfg-path', '/tmp/tmpfq21zizh']
+[2023-07-05T10:38:06.135+0100] {standard_task_runner.py:85} INFO - Job 357: Subtask extract_current_data
+[2023-07-05T10:38:06.200+0100] {task_command.py:410} INFO - Running <TaskInstance: update_current_data_10.extract_current_data scheduled__2023-05-07T09:00:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-05T10:38:06.295+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='update_current_data_10' AIRFLOW_CTX_TASK_ID='extract_current_data' AIRFLOW_CTX_EXECUTION_DATE='2023-05-07T09:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-07T09:00:00+00:00'
+[2023-07-05T10:38:10.212+0100] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-05T10:38:10.246+0100] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=update_current_data_10, task_id=extract_current_data, execution_date=20230507T090000, start_date=20230705T093806, end_date=20230705T093810
+[2023-07-05T10:38:10.284+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-05T10:38:10.316+0100] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-07-05T11:03:58.669+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: update_current_data_10.extract_current_data scheduled__2023-05-07T09:00:00+00:00 [queued]>
+[2023-07-05T11:03:58.678+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: update_current_data_10.extract_current_data scheduled__2023-05-07T09:00:00+00:00 [queued]>
+[2023-07-05T11:03:58.678+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-07-05T11:03:58.688+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): extract_current_data> on 2023-05-07 09:00:00+00:00
+[2023-07-05T11:03:58.692+0100] {standard_task_runner.py:57} INFO - Started process 69792 to run task
+[2023-07-05T11:03:58.695+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'update_current_data_10', 'extract_current_data', 'scheduled__2023-05-07T09:00:00+00:00', '--job-id', '693', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py', '--cfg-path', '/tmp/tmpq0abb_59']
+[2023-07-05T11:03:58.696+0100] {standard_task_runner.py:85} INFO - Job 693: Subtask extract_current_data
+[2023-07-05T11:03:58.760+0100] {task_command.py:410} INFO - Running <TaskInstance: update_current_data_10.extract_current_data scheduled__2023-05-07T09:00:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-05T11:03:58.863+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='update_current_data_10' AIRFLOW_CTX_TASK_ID='extract_current_data' AIRFLOW_CTX_EXECUTION_DATE='2023-05-07T09:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-07T09:00:00+00:00'
+[2023-07-05T11:04:02.654+0100] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-05T11:04:02.684+0100] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=update_current_data_10, task_id=extract_current_data, execution_date=20230507T090000, start_date=20230705T100358, end_date=20230705T100402
+[2023-07-05T11:04:02.729+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-05T11:04:02.762+0100] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

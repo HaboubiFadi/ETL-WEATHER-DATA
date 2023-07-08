@@ -1,0 +1,55 @@
+[2023-07-03T16:26:24.414+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: updated_day_hist.load_updated_data scheduled__2023-07-02T00:00:00+00:00 [queued]>
+[2023-07-03T16:26:24.425+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: updated_day_hist.load_updated_data scheduled__2023-07-02T00:00:00+00:00 [queued]>
+[2023-07-03T16:26:24.425+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-07-03T16:26:24.438+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): load_updated_data> on 2023-07-02 00:00:00+00:00
+[2023-07-03T16:26:24.441+0100] {standard_task_runner.py:57} INFO - Started process 15422 to run task
+[2023-07-03T16:26:24.444+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'updated_day_hist', 'load_updated_data', 'scheduled__2023-07-02T00:00:00+00:00', '--job-id', '58', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py', '--cfg-path', '/tmp/tmpxa46i_b9']
+[2023-07-03T16:26:24.446+0100] {standard_task_runner.py:85} INFO - Job 58: Subtask load_updated_data
+[2023-07-03T16:26:24.524+0100] {task_command.py:410} INFO - Running <TaskInstance: updated_day_hist.load_updated_data scheduled__2023-07-02T00:00:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-03T16:26:24.628+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='updated_day_hist' AIRFLOW_CTX_TASK_ID='load_updated_data' AIRFLOW_CTX_EXECUTION_DATE='2023-07-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-07-02T00:00:00+00:00'
+[2023-07-03T16:26:24.640+0100] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py", line 47, in load_updated_data_db
+    loc=session.query(Location).filter_by(Location.name==locations_csv.iloc[i]['name']).first()
+TypeError: Query.filter_by() takes 1 positional argument but 2 were given
+[2023-07-03T16:26:24.656+0100] {taskinstance.py:1345} INFO - Marking task as UP_FOR_RETRY. dag_id=updated_day_hist, task_id=load_updated_data, execution_date=20230702T000000, start_date=20230703T152624, end_date=20230703T152624
+[2023-07-03T16:26:24.666+0100] {standard_task_runner.py:104} ERROR - Failed to execute job 58 for task load_updated_data (Query.filter_by() takes 1 positional argument but 2 were given; 15422)
+[2023-07-03T16:26:24.697+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-07-03T16:26:24.729+0100] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-07-03T16:49:02.137+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: updated_day_hist.load_updated_data scheduled__2023-07-02T00:00:00+00:00 [queued]>
+[2023-07-03T16:49:02.149+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: updated_day_hist.load_updated_data scheduled__2023-07-02T00:00:00+00:00 [queued]>
+[2023-07-03T16:49:02.149+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-07-03T16:49:02.159+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): load_updated_data> on 2023-07-02 00:00:00+00:00
+[2023-07-03T16:49:02.163+0100] {standard_task_runner.py:57} INFO - Started process 23270 to run task
+[2023-07-03T16:49:02.167+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'updated_day_hist', 'load_updated_data', 'scheduled__2023-07-02T00:00:00+00:00', '--job-id', '92', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py', '--cfg-path', '/tmp/tmpxnrqgcrq']
+[2023-07-03T16:49:02.168+0100] {standard_task_runner.py:85} INFO - Job 92: Subtask load_updated_data
+[2023-07-03T16:49:02.245+0100] {task_command.py:410} INFO - Running <TaskInstance: updated_day_hist.load_updated_data scheduled__2023-07-02T00:00:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-03T16:49:02.351+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='updated_day_hist' AIRFLOW_CTX_TASK_ID='load_updated_data' AIRFLOW_CTX_EXECUTION_DATE='2023-07-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-07-02T00:00:00+00:00'
+[2023-07-03T16:49:02.358+0100] {logging_mixin.py:149} INFO - debug prb: Paris
+[2023-07-03T16:49:02.391+0100] {logging_mixin.py:149} INFO - debug prb: London
+[2023-07-03T16:49:02.403+0100] {logging_mixin.py:149} INFO - debug prb: Barcelona
+[2023-07-03T16:49:02.412+0100] {logging_mixin.py:149} INFO - debug prb: Rome
+[2023-07-03T16:49:02.420+0100] {logging_mixin.py:149} INFO - debug prb: New York
+[2023-07-03T16:49:02.430+0100] {logging_mixin.py:149} INFO - debug prb: Tokyo
+[2023-07-03T16:49:02.438+0100] {logging_mixin.py:149} INFO - debug prb: Istanbul
+[2023-07-03T16:49:02.449+0100] {logging_mixin.py:149} INFO - debug prb: Dubai
+[2023-07-03T16:49:02.456+0100] {logging_mixin.py:149} INFO - debug prb: Sydney
+[2023-07-03T16:49:02.466+0100] {logging_mixin.py:149} INFO - debug prb: Bangkok
+[2023-07-03T16:49:02.475+0100] {logging_mixin.py:149} INFO - debug prb: Amsterdam
+[2023-07-03T16:49:02.485+0100] {logging_mixin.py:149} INFO - debug prb: Rio De Janeiro
+[2023-07-03T16:49:02.494+0100] {logging_mixin.py:149} INFO - debug prb: Prague
+[2023-07-03T16:49:02.504+0100] {logging_mixin.py:149} INFO - debug prb: Cape Town
+[2023-07-03T16:49:02.518+0100] {logging_mixin.py:149} INFO - debug prb: Buenos Aires
+[2023-07-03T16:49:02.529+0100] {logging_mixin.py:149} INFO - debug prb: Singapore
+[2023-07-03T16:49:02.539+0100] {logging_mixin.py:149} INFO - debug prb: Florence
+[2023-07-03T16:49:02.553+0100] {logging_mixin.py:149} INFO - debug prb: San Francisco
+[2023-07-03T16:49:02.564+0100] {logging_mixin.py:149} INFO - debug prb: Marrakech
+[2023-07-03T16:49:02.575+0100] {logging_mixin.py:149} INFO - debug prb: Berlin
+[2023-07-03T16:49:02.589+0100] {python.py:183} INFO - Done. Returned value was: 0
+[2023-07-03T16:49:02.635+0100] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=updated_day_hist, task_id=load_updated_data, execution_date=20230702T000000, start_date=20230703T154902, end_date=20230703T154902
+[2023-07-03T16:49:02.659+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-03T16:49:02.692+0100] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

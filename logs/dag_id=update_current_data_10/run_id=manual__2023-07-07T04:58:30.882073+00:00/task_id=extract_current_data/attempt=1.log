@@ -1,0 +1,43 @@
+[2023-07-07T05:58:36.474+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: update_current_data_10.extract_current_data manual__2023-07-07T04:58:30.882073+00:00 [queued]>
+[2023-07-07T05:58:36.484+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: update_current_data_10.extract_current_data manual__2023-07-07T04:58:30.882073+00:00 [queued]>
+[2023-07-07T05:58:36.484+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-07-07T05:58:36.495+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): extract_current_data> on 2023-07-07 04:58:30.882073+00:00
+[2023-07-07T05:58:36.500+0100] {standard_task_runner.py:57} INFO - Started process 1055393 to run task
+[2023-07-07T05:58:36.504+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'update_current_data_10', 'extract_current_data', 'manual__2023-07-07T04:58:30.882073+00:00', '--job-id', '16859', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py', '--cfg-path', '/tmp/tmpx4el1ru1']
+[2023-07-07T05:58:36.506+0100] {standard_task_runner.py:85} INFO - Job 16859: Subtask extract_current_data
+[2023-07-07T05:58:36.586+0100] {task_command.py:410} INFO - Running <TaskInstance: update_current_data_10.extract_current_data manual__2023-07-07T04:58:30.882073+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-07T05:58:36.689+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='update_current_data_10' AIRFLOW_CTX_TASK_ID='extract_current_data' AIRFLOW_CTX_EXECUTION_DATE='2023-07-07T04:58:30.882073+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-07T04:58:30.882073+00:00'
+[2023-07-07T05:58:36.832+0100] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3653, in get_loc
+    return self._engine.get_loc(casted_key)
+  File "pandas/_libs/index.pyx", line 147, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/index.pyx", line 176, in pandas._libs.index.IndexEngine.get_loc
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7080, in pandas._libs.hashtable.PyObjectHashTable.get_item
+  File "pandas/_libs/hashtable_class_helper.pxi", line 7088, in pandas._libs.hashtable.PyObjectHashTable.get_item
+KeyError: 'date'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py", line 32, in extract_data
+    save_current_pd_csv()
+  File "/home/haboubi/Desktop/api/API_weather/./dags/current_data_fetch.py", line 79, in save_current_pd_csv
+    df,location_df=create_current_data_pd_total(location_df,city=c)
+  File "/home/haboubi/Desktop/api/API_weather/./dags/current_data_fetch.py", line 62, in create_current_data_pd_total
+    location_df.loc[len(location_df)]=list(location.values())+[df.iloc[len(df)-1]['date']]
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/pandas/core/series.py", line 1007, in __getitem__
+    return self._get_value(key)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/pandas/core/series.py", line 1116, in _get_value
+    loc = self.index.get_loc(label)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/pandas/core/indexes/base.py", line 3655, in get_loc
+    raise KeyError(key) from err
+KeyError: 'date'
+[2023-07-07T05:58:36.870+0100] {taskinstance.py:1345} INFO - Marking task as UP_FOR_RETRY. dag_id=update_current_data_10, task_id=extract_current_data, execution_date=20230707T045830, start_date=20230707T045836, end_date=20230707T045836
+[2023-07-07T05:58:36.885+0100] {standard_task_runner.py:104} ERROR - Failed to execute job 16859 for task extract_current_data ('date'; 1055393)
+[2023-07-07T05:58:36.917+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-07-07T05:58:36.957+0100] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

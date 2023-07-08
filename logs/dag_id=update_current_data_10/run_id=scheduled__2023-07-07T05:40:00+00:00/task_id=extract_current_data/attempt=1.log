@@ -1,0 +1,33 @@
+[2023-07-07T07:00:04.254+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: update_current_data_10.extract_current_data scheduled__2023-07-07T05:40:00+00:00 [queued]>
+[2023-07-07T07:00:04.264+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: update_current_data_10.extract_current_data scheduled__2023-07-07T05:40:00+00:00 [queued]>
+[2023-07-07T07:00:04.264+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-07-07T07:00:04.277+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): extract_current_data> on 2023-07-07 05:40:00+00:00
+[2023-07-07T07:00:04.280+0100] {standard_task_runner.py:57} INFO - Started process 1066933 to run task
+[2023-07-07T07:00:04.283+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'update_current_data_10', 'extract_current_data', 'scheduled__2023-07-07T05:40:00+00:00', '--job-id', '16893', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py', '--cfg-path', '/tmp/tmpsntdiahc']
+[2023-07-07T07:00:04.285+0100] {standard_task_runner.py:85} INFO - Job 16893: Subtask extract_current_data
+[2023-07-07T07:00:04.355+0100] {task_command.py:410} INFO - Running <TaskInstance: update_current_data_10.extract_current_data scheduled__2023-07-07T05:40:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-07T07:00:04.456+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='update_current_data_10' AIRFLOW_CTX_TASK_ID='extract_current_data' AIRFLOW_CTX_EXECUTION_DATE='2023-07-07T05:40:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-07-07T05:40:00+00:00'
+[2023-07-07T07:00:04.466+0100] {logging_mixin.py:149} INFO - Paris
+[2023-07-07T07:00:04.887+0100] {logging_mixin.py:149} INFO - London
+[2023-07-07T07:00:05.091+0100] {logging_mixin.py:149} INFO - Barcelona
+[2023-07-07T07:00:05.303+0100] {logging_mixin.py:149} INFO - Rome
+[2023-07-07T07:00:05.518+0100] {logging_mixin.py:149} INFO - New York City
+[2023-07-07T07:00:05.707+0100] {logging_mixin.py:149} INFO - Tokyo
+[2023-07-07T07:00:05.925+0100] {logging_mixin.py:149} INFO - Istanbul
+[2023-07-07T07:00:06.137+0100] {logging_mixin.py:149} INFO - Dubai
+[2023-07-07T07:00:06.426+0100] {logging_mixin.py:149} INFO - Sydney
+[2023-07-07T07:00:06.701+0100] {logging_mixin.py:149} INFO - Bangkok
+[2023-07-07T07:00:06.913+0100] {logging_mixin.py:149} INFO - Amsterdam
+[2023-07-07T07:00:07.230+0100] {logging_mixin.py:149} INFO - Rio de Janeiro
+[2023-07-07T07:00:08.367+0100] {logging_mixin.py:149} INFO - Prague
+[2023-07-07T07:00:09.067+0100] {logging_mixin.py:149} INFO - Cape Town
+[2023-07-07T07:00:09.353+0100] {logging_mixin.py:149} INFO - Buenos Aires
+[2023-07-07T07:00:09.535+0100] {logging_mixin.py:149} INFO - Berlin
+[2023-07-07T07:00:09.716+0100] {logging_mixin.py:149} INFO - Singapore
+[2023-07-07T07:00:09.948+0100] {logging_mixin.py:149} INFO - Florence
+[2023-07-07T07:00:10.216+0100] {logging_mixin.py:149} INFO - San Francisco
+[2023-07-07T07:00:10.470+0100] {logging_mixin.py:149} INFO - Marrakech
+[2023-07-07T07:00:10.663+0100] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-07T07:00:10.725+0100] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=update_current_data_10, task_id=extract_current_data, execution_date=20230707T054000, start_date=20230707T060004, end_date=20230707T060010
+[2023-07-07T07:00:10.760+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-07T07:00:10.811+0100] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

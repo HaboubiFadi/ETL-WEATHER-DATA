@@ -1,0 +1,26 @@
+[2023-06-30T04:18:19.376+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: using_taskflow_v2.get_name scheduled__0029-07-01T00:00:00+00:00 [queued]>
+[2023-06-30T04:18:19.382+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: using_taskflow_v2.get_name scheduled__0029-07-01T00:00:00+00:00 [queued]>
+[2023-06-30T04:18:19.382+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 6
+[2023-06-30T04:18:19.394+0100] {taskinstance.py:1327} INFO - Executing <Task(_PythonDecoratedOperator): get_name> on 0029-07-01 00:00:00+00:00
+[2023-06-30T04:18:19.397+0100] {standard_task_runner.py:57} INFO - Started process 29250 to run task
+[2023-06-30T04:18:19.401+0100] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'using_taskflow_v2', 'get_name', 'scheduled__0029-07-01T00:00:00+00:00', '--job-id', '170', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/dag_create_py_api_taskflow.py', '--cfg-path', '/tmp/tmpa6cbpmzo']
+[2023-06-30T04:18:19.402+0100] {standard_task_runner.py:85} INFO - Job 170: Subtask get_name
+[2023-06-30T04:18:19.435+0100] {task_command.py:410} INFO - Running <TaskInstance: using_taskflow_v2.get_name scheduled__0029-07-01T00:00:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-06-30T04:18:19.480+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='using_taskflow_v2' AIRFLOW_CTX_TASK_ID='get_name' AIRFLOW_CTX_EXECUTION_DATE='0029-07-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__0029-07-01T00:00:00+00:00'
+[2023-06-30T04:18:19.481+0100] {python.py:183} INFO - Done. Returned value was: {'first_name': 'fadi', 'last_name': 'haboubi'}
+[2023-06-30T04:18:19.492+0100] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=using_taskflow_v2, task_id=get_name, execution_date=290701T000000, start_date=20230630T031819, end_date=20230630T031819
+[2023-06-30T04:18:19.533+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-06-30T04:18:19.565+0100] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-06-30T04:20:34.399+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: using_taskflow_v2.get_name scheduled__0029-07-01T00:00:00+00:00 [queued]>
+[2023-06-30T04:20:34.405+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: using_taskflow_v2.get_name scheduled__0029-07-01T00:00:00+00:00 [queued]>
+[2023-06-30T04:20:34.405+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 6
+[2023-06-30T04:20:34.420+0100] {taskinstance.py:1327} INFO - Executing <Task(_PythonDecoratedOperator): get_name> on 0029-07-01 00:00:00+00:00
+[2023-06-30T04:20:34.423+0100] {standard_task_runner.py:57} INFO - Started process 30878 to run task
+[2023-06-30T04:20:34.427+0100] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'using_taskflow_v2', 'get_name', 'scheduled__0029-07-01T00:00:00+00:00', '--job-id', '170', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/dag_create_py_api_taskflow.py', '--cfg-path', '/tmp/tmpbpctd4bx']
+[2023-06-30T04:20:34.429+0100] {standard_task_runner.py:85} INFO - Job 170: Subtask get_name
+[2023-06-30T04:20:34.460+0100] {task_command.py:410} INFO - Running <TaskInstance: using_taskflow_v2.get_name scheduled__0029-07-01T00:00:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-06-30T04:20:34.506+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='using_taskflow_v2' AIRFLOW_CTX_TASK_ID='get_name' AIRFLOW_CTX_EXECUTION_DATE='0029-07-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__0029-07-01T00:00:00+00:00'
+[2023-06-30T04:20:34.507+0100] {python.py:183} INFO - Done. Returned value was: {'first_name': 'fadi', 'last_name': 'haboubi'}
+[2023-06-30T04:20:34.527+0100] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=using_taskflow_v2, task_id=get_name, execution_date=290701T000000, start_date=20230630T032034, end_date=20230630T032034
+[2023-06-30T04:20:34.558+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-06-30T04:20:34.573+0100] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

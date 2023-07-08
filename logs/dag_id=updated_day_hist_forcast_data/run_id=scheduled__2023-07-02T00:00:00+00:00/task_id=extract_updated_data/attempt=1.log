@@ -1,0 +1,66 @@
+[2023-07-03T18:45:51.590+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: updated_day_hist_forcast_data.extract_updated_data scheduled__2023-07-02T00:00:00+00:00 [queued]>
+[2023-07-03T18:45:51.601+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: updated_day_hist_forcast_data.extract_updated_data scheduled__2023-07-02T00:00:00+00:00 [queued]>
+[2023-07-03T18:45:51.601+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-07-03T18:45:51.612+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): extract_updated_data> on 2023-07-02 00:00:00+00:00
+[2023-07-03T18:45:51.618+0100] {standard_task_runner.py:57} INFO - Started process 55427 to run task
+[2023-07-03T18:45:51.622+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'updated_day_hist_forcast_data', 'extract_updated_data', 'scheduled__2023-07-02T00:00:00+00:00', '--job-id', '124', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py', '--cfg-path', '/tmp/tmpv9dp42z1']
+[2023-07-03T18:45:51.623+0100] {standard_task_runner.py:85} INFO - Job 124: Subtask extract_updated_data
+[2023-07-03T18:45:51.696+0100] {task_command.py:410} INFO - Running <TaskInstance: updated_day_hist_forcast_data.extract_updated_data scheduled__2023-07-02T00:00:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-03T18:45:51.813+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='updated_day_hist_forcast_data' AIRFLOW_CTX_TASK_ID='extract_updated_data' AIRFLOW_CTX_EXECUTION_DATE='2023-07-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-07-02T00:00:00+00:00'
+[2023-07-03T18:45:51.843+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-03T18:45:52.086+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-03T18:45:52.324+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-03T18:45:52.657+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-03T18:45:52.892+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-03T18:45:53.179+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-03T18:45:53.454+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-03T18:45:53.721+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-03T18:45:54.029+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-03T18:45:54.311+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-03T18:45:54.569+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-03T18:45:54.804+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-03T18:45:55.066+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-03T18:45:55.334+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-03T18:45:55.636+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-03T18:45:55.876+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-03T18:45:56.163+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-03T18:45:56.475+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-03T18:45:56.743+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-03T18:45:57.021+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-03T18:46:11.654+0100] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-03T18:46:11.673+0100] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=updated_day_hist_forcast_data, task_id=extract_updated_data, execution_date=20230702T000000, start_date=20230703T174551, end_date=20230703T174611
+[2023-07-03T18:46:11.719+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-03T18:46:11.797+0100] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-07-05T09:00:34.660+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: updated_day_hist_forcast_data.extract_updated_data scheduled__2023-07-02T00:00:00+00:00 [queued]>
+[2023-07-05T09:00:34.668+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: updated_day_hist_forcast_data.extract_updated_data scheduled__2023-07-02T00:00:00+00:00 [queued]>
+[2023-07-05T09:00:34.668+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-07-05T09:00:34.682+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): extract_updated_data> on 2023-07-02 00:00:00+00:00
+[2023-07-05T09:00:34.686+0100] {standard_task_runner.py:57} INFO - Started process 13690 to run task
+[2023-07-05T09:00:34.690+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'updated_day_hist_forcast_data', 'extract_updated_data', 'scheduled__2023-07-02T00:00:00+00:00', '--job-id', '156', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py', '--cfg-path', '/tmp/tmphi_cd2vx']
+[2023-07-05T09:00:34.693+0100] {standard_task_runner.py:85} INFO - Job 156: Subtask extract_updated_data
+[2023-07-05T09:00:34.761+0100] {task_command.py:410} INFO - Running <TaskInstance: updated_day_hist_forcast_data.extract_updated_data scheduled__2023-07-02T00:00:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-05T09:00:34.860+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='updated_day_hist_forcast_data' AIRFLOW_CTX_TASK_ID='extract_updated_data' AIRFLOW_CTX_EXECUTION_DATE='2023-07-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-07-02T00:00:00+00:00'
+[2023-07-05T09:00:34.882+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-05T09:00:35.267+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-05T09:00:35.506+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-05T09:00:35.751+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-05T09:00:35.950+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-05T09:00:36.173+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-05T09:00:36.453+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-05T09:00:36.984+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-05T09:00:37.266+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-05T09:00:37.486+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-05T09:00:37.773+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-05T09:00:37.999+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-05T09:00:38.234+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-05T09:00:38.504+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-05T09:00:38.817+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-05T09:00:39.202+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-05T09:00:39.722+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-05T09:00:39.991+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-05T09:00:40.265+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-05T09:00:40.554+0100] {logging_mixin.py:149} INFO - im here 2023
+[2023-07-05T09:00:48.339+0100] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-05T09:00:48.356+0100] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=updated_day_hist_forcast_data, task_id=extract_updated_data, execution_date=20230702T000000, start_date=20230705T080034, end_date=20230705T080048
+[2023-07-05T09:00:48.399+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-05T09:00:48.429+0100] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

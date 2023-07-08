@@ -1,0 +1,1315 @@
+[2023-07-05T08:51:24.861+0100] {processor.py:157} INFO - Started process (PID=10532) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:51:24.862+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T08:51:24.863+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:51:24.863+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:51:24.878+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:51:24.877+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 7, in <module>
+    from hist_hour import Hist_hour
+ModuleNotFoundError: No module named 'hist_hour'
+[2023-07-05T08:51:24.879+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:51:24.915+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.058 seconds
+[2023-07-05T08:51:55.904+0100] {processor.py:157} INFO - Started process (PID=10906) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:51:55.905+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T08:51:55.906+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:51:55.906+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:51:55.915+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:51:55.914+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 7, in <module>
+    from hist_hour import Hist_hour
+ModuleNotFoundError: No module named 'hist_hour'
+[2023-07-05T08:51:55.916+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:51:55.952+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.051 seconds
+[2023-07-05T08:52:26.807+0100] {processor.py:157} INFO - Started process (PID=11070) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:52:26.808+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T08:52:26.808+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:52:26.808+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:52:26.820+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:52:26.819+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 7, in <module>
+    from hist_hour import Hist_hour
+ModuleNotFoundError: No module named 'hist_hour'
+[2023-07-05T08:52:26.820+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:52:26.845+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.041 seconds
+[2023-07-05T08:52:57.865+0100] {processor.py:157} INFO - Started process (PID=11157) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:52:57.866+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T08:52:57.867+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:52:57.867+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:52:57.881+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:52:57.880+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 7, in <module>
+    from hist_hour import Hist_hour
+ModuleNotFoundError: No module named 'hist_hour'
+[2023-07-05T08:52:57.882+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:52:57.913+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.051 seconds
+[2023-07-05T08:53:28.795+0100] {processor.py:157} INFO - Started process (PID=11218) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:53:28.796+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T08:53:28.797+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:53:28.797+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:53:28.809+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:53:28.809+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 7, in <module>
+    from hist_hour import Hist_hour
+ModuleNotFoundError: No module named 'hist_hour'
+[2023-07-05T08:53:28.810+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:53:28.837+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.046 seconds
+[2023-07-05T08:53:59.640+0100] {processor.py:157} INFO - Started process (PID=11273) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:53:59.641+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T08:53:59.642+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:53:59.642+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:53:59.652+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:53:59.651+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 7, in <module>
+    from hist_hour import Hist_hour
+ModuleNotFoundError: No module named 'hist_hour'
+[2023-07-05T08:53:59.652+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:53:59.678+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.041 seconds
+[2023-07-05T08:54:30.010+0100] {processor.py:157} INFO - Started process (PID=11618) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:54:30.011+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T08:54:30.012+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:54:30.012+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:54:30.024+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:54:30.023+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 7, in <module>
+    from hist_hour import Hist_hour
+ModuleNotFoundError: No module named 'hist_hour'
+[2023-07-05T08:54:30.024+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:54:30.049+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.043 seconds
+[2023-07-05T08:55:00.463+0100] {processor.py:157} INFO - Started process (PID=11710) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:55:00.464+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T08:55:00.465+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:55:00.464+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:55:00.480+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:55:00.478+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 7, in <module>
+    from hist_hour import Hist_hour
+ModuleNotFoundError: No module named 'hist_hour'
+[2023-07-05T08:55:00.481+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:55:00.531+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.074 seconds
+[2023-07-05T08:55:30.650+0100] {processor.py:157} INFO - Started process (PID=11798) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:55:30.651+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T08:55:30.652+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:55:30.652+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:55:30.672+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:55:30.671+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 7, in <module>
+    from hist_hour import Hist_hour
+ModuleNotFoundError: No module named 'hist_hour'
+[2023-07-05T08:55:30.673+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:55:30.724+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.079 seconds
+[2023-07-05T08:56:01.334+0100] {processor.py:157} INFO - Started process (PID=12017) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:56:01.336+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T08:56:01.337+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:56:01.337+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:56:01.349+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:56:01.348+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 7, in <module>
+    from hist_hour import Hist_hour
+ModuleNotFoundError: No module named 'hist_hour'
+[2023-07-05T08:56:01.349+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:56:01.379+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.048 seconds
+[2023-07-05T08:56:16.577+0100] {processor.py:157} INFO - Started process (PID=12092) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:56:16.579+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T08:56:16.582+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:56:16.581+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:56:17.643+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T08:56:17.689+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:56:17.897+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:56:17.896+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T08:56:17.926+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:56:17.925+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T08:56:17.970+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 1.407 seconds
+[2023-07-05T08:56:48.263+0100] {processor.py:157} INFO - Started process (PID=12267) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:56:48.266+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T08:56:48.267+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:56:48.267+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:56:48.867+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T08:56:48.899+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:56:48.952+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:56:48.951+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T08:56:48.974+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:56:48.974+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T08:56:48.990+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.739 seconds
+[2023-07-05T08:57:19.379+0100] {processor.py:157} INFO - Started process (PID=12509) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:57:19.381+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T08:57:19.382+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:57:19.382+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:57:20.191+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T08:57:20.225+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:57:20.328+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:57:20.327+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T08:57:20.360+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:57:20.360+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T08:57:20.379+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 1.003 seconds
+[2023-07-05T08:57:50.835+0100] {processor.py:157} INFO - Started process (PID=12714) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:57:50.836+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T08:57:50.838+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:57:50.837+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:57:51.520+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T08:57:51.532+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:57:51.568+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:57:51.568+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T08:57:51.589+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:57:51.589+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T08:57:51.608+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.779 seconds
+[2023-07-05T08:58:21.813+0100] {processor.py:157} INFO - Started process (PID=12750) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:58:21.814+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T08:58:21.815+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:58:21.815+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:58:22.396+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T08:58:22.420+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:58:22.459+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:58:22.458+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T08:58:22.480+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:58:22.480+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T08:58:22.497+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.692 seconds
+[2023-07-05T08:58:52.941+0100] {processor.py:157} INFO - Started process (PID=12819) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:58:52.944+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T08:58:52.947+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:58:52.946+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:58:53.751+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T08:58:53.775+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:58:53.815+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:58:53.815+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T08:58:53.841+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:58:53.841+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T08:58:53.861+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.933 seconds
+[2023-07-05T08:59:24.556+0100] {processor.py:157} INFO - Started process (PID=12927) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:59:24.559+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T08:59:24.562+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:59:24.561+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:59:25.651+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T08:59:25.684+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:59:25.738+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:59:25.737+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T08:59:25.767+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:59:25.767+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T08:59:25.787+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 1.244 seconds
+[2023-07-05T08:59:56.179+0100] {processor.py:157} INFO - Started process (PID=13148) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:59:56.181+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T08:59:56.182+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:59:56.182+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:59:56.807+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T08:59:56.827+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T08:59:56.891+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:59:56.891+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T08:59:56.923+0100] {logging_mixin.py:149} INFO - [2023-07-05T08:59:56.923+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T08:59:56.956+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.788 seconds
+[2023-07-05T09:00:27.302+0100] {processor.py:157} INFO - Started process (PID=13574) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:00:27.304+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:00:27.305+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:00:27.305+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:00:27.893+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T09:00:27.920+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:00:28.037+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:00:28.037+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T09:00:28.060+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:00:28.060+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T09:00:28.076+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.781 seconds
+[2023-07-05T09:00:58.146+0100] {processor.py:157} INFO - Started process (PID=14050) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:00:58.147+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:00:58.148+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:00:58.148+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:00:58.706+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T09:00:58.714+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:00:58.751+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:00:58.750+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T09:00:58.773+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:00:58.773+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T09:00:58.790+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.649 seconds
+[2023-07-05T09:01:29.004+0100] {processor.py:157} INFO - Started process (PID=14533) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:01:29.006+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:01:29.008+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:01:29.007+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:01:29.660+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T09:01:29.667+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:01:29.713+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:01:29.711+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T09:01:29.746+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:01:29.746+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T09:01:29.766+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.773 seconds
+[2023-07-05T09:02:00.089+0100] {processor.py:157} INFO - Started process (PID=15034) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:02:00.094+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:02:00.098+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:02:00.097+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:02:00.659+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T09:02:00.675+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:02:00.720+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:02:00.719+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T09:02:00.743+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:02:00.743+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T09:02:00.763+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.695 seconds
+[2023-07-05T09:02:31.023+0100] {processor.py:157} INFO - Started process (PID=15305) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:02:31.026+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:02:31.029+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:02:31.029+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:02:32.018+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T09:02:32.047+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:02:32.092+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:02:32.092+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T09:02:32.112+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:02:32.112+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T09:02:32.129+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 1.118 seconds
+[2023-07-05T09:03:02.404+0100] {processor.py:157} INFO - Started process (PID=15623) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:03:02.406+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:03:02.407+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:03:02.406+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:03:02.927+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T09:03:02.948+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:03:02.988+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:03:02.987+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T09:03:03.009+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:03:03.009+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T09:03:03.026+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.628 seconds
+[2023-07-05T09:03:33.117+0100] {processor.py:157} INFO - Started process (PID=15839) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:03:33.117+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:03:33.118+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:03:33.118+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:03:34.598+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T09:03:34.636+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:03:34.699+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:03:34.699+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T09:03:34.738+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:03:34.738+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T09:03:34.766+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 1.652 seconds
+[2023-07-05T09:04:05.041+0100] {processor.py:157} INFO - Started process (PID=16211) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:04:05.044+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:04:05.046+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:04:05.045+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:04:05.694+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T09:04:05.735+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:04:05.850+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:04:05.850+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T09:04:05.876+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:04:05.876+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T09:04:05.894+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.862 seconds
+[2023-07-05T09:04:36.245+0100] {processor.py:157} INFO - Started process (PID=16362) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:04:36.246+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:04:36.246+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:04:36.246+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:04:36.834+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T09:04:36.863+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:04:36.950+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:04:36.950+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T09:04:36.988+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:04:36.988+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T09:04:37.007+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.766 seconds
+[2023-07-05T09:05:07.207+0100] {processor.py:157} INFO - Started process (PID=16569) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:05:07.211+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:05:07.213+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:05:07.213+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:05:07.769+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T09:05:07.800+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:05:07.992+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:05:07.992+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T09:05:08.003+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:05:08.002+0100] {dag.py:2747} INFO - Creating ORM DAG for init_db
+[2023-07-05T09:05:08.013+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:05:08.012+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to 2023-07-01T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-07-05T09:05:08.032+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.837 seconds
+[2023-07-05T09:05:24.172+0100] {processor.py:157} INFO - Started process (PID=16719) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:05:24.175+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:05:24.178+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:05:24.177+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:05:25.200+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T09:05:25.246+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:05:25.313+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:05:25.312+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T09:05:25.340+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:05:25.339+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to 2023-07-01T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-07-05T09:05:25.387+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 1.234 seconds
+[2023-07-05T09:05:55.744+0100] {processor.py:157} INFO - Started process (PID=17018) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:05:55.745+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:05:55.746+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:05:55.746+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:05:56.235+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T09:05:56.259+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:05:56.298+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:05:56.298+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T09:05:56.323+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:05:56.323+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T09:05:56.340+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.602 seconds
+[2023-07-05T09:06:26.467+0100] {processor.py:157} INFO - Started process (PID=17320) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:06:26.468+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:06:26.468+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:06:26.468+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:06:27.079+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T09:06:27.098+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:06:27.144+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:06:27.143+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T09:06:27.171+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:06:27.171+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T09:06:27.202+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.738 seconds
+[2023-07-05T09:06:57.305+0100] {processor.py:157} INFO - Started process (PID=17577) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:06:57.307+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:06:57.308+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:06:57.307+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:06:57.932+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T09:06:57.947+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:06:57.984+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:06:57.984+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T09:06:58.013+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:06:58.013+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T09:06:58.033+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.734 seconds
+[2023-07-05T09:07:28.090+0100] {processor.py:157} INFO - Started process (PID=17854) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:07:28.091+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:07:28.092+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:07:28.091+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:07:28.651+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T09:07:28.676+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:07:28.726+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:07:28.726+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T09:07:28.750+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:07:28.750+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T09:07:28.769+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.683 seconds
+[2023-07-05T09:07:58.886+0100] {processor.py:157} INFO - Started process (PID=18240) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:07:58.888+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:07:58.890+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:07:58.889+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:07:59.403+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T09:07:59.411+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:07:59.464+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:07:59.463+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T09:07:59.494+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:07:59.494+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T09:07:59.513+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.635 seconds
+[2023-07-05T09:08:30.108+0100] {processor.py:157} INFO - Started process (PID=18557) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:08:30.111+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:08:30.114+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:08:30.113+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:08:31.665+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T09:08:31.689+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:08:31.732+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:08:31.732+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T09:08:31.752+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:08:31.752+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T09:08:31.768+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 1.672 seconds
+[2023-07-05T09:09:02.148+0100] {processor.py:157} INFO - Started process (PID=18815) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:09:02.150+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:09:02.152+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:09:02.151+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:09:03.038+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T09:09:03.061+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:09:03.099+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:09:03.099+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T09:09:03.120+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:09:03.120+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T09:09:03.137+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 1.001 seconds
+[2023-07-05T09:09:33.941+0100] {processor.py:157} INFO - Started process (PID=19047) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:09:33.942+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:09:33.943+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:09:33.943+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:09:34.592+0100] {logging_mixin.py:149} INFO - {'maxtemp_c': 22.8, 'mintemp_c': 8.1, 'avgtemp_c': 14.0, 'avghumidity': 70.0, 'condition': 'Partly cloudy'}
+[2023-07-05T09:09:34.615+0100] {processor.py:836} INFO - DAG(s) dict_keys(['init_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:09:34.654+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:09:34.654+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-05T09:09:34.676+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:09:34.676+0100] {dag.py:3486} INFO - Setting next_dagrun for init_db to None, run_after=None
+[2023-07-05T09:09:34.694+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.759 seconds
+[2023-07-05T09:10:05.183+0100] {processor.py:157} INFO - Started process (PID=19289) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:10:05.186+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:10:05.187+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:10:05.187+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:10:12.889+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:10:12.866+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/connection.py", line 95, in create_connection
+    raise err
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/connection.py", line 85, in create_connection
+    sock.connect(sa)
+OSError: [Errno 101] Network is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 415, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 975, in send
+    self.connect()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3355114d60>: Failed to establish a new connection: [Errno 101] Network is unreachable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3355114d60>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 9, in <module>
+    from hist_day_data_fetch import save_pd_csv
+  File "/home/haboubi/Desktop/api/API_weather/./dags/hist_day_data_fetch.py", line 11, in <module>
+    req=requests.get(historical,params=params)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3355114d60>: Failed to establish a new connection: [Errno 101] Network is unreachable'))
+[2023-07-05T09:10:12.892+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:10:12.970+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 7.795 seconds
+[2023-07-05T09:10:43.395+0100] {processor.py:157} INFO - Started process (PID=19594) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:10:43.397+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:10:43.398+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:10:43.398+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:11:03.760+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:11:03.741+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 415, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 975, in send
+    self.connect()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3355114df0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3355114df0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 9, in <module>
+    from hist_day_data_fetch import save_pd_csv
+  File "/home/haboubi/Desktop/api/API_weather/./dags/hist_day_data_fetch.py", line 11, in <module>
+    req=requests.get(historical,params=params)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3355114df0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2023-07-05T09:11:03.763+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:11:03.862+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 20.474 seconds
+[2023-07-05T09:11:34.653+0100] {processor.py:157} INFO - Started process (PID=20019) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:11:34.656+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:11:34.658+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:11:34.658+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:11:55.080+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:11:55.069+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 415, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 975, in send
+    self.connect()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f335510cdf0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f335510cdf0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 9, in <module>
+    from hist_day_data_fetch import save_pd_csv
+  File "/home/haboubi/Desktop/api/API_weather/./dags/hist_day_data_fetch.py", line 11, in <module>
+    req=requests.get(historical,params=params)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f335510cdf0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2023-07-05T09:11:55.083+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:11:55.136+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 20.497 seconds
+[2023-07-05T09:12:25.722+0100] {processor.py:157} INFO - Started process (PID=20337) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:12:25.723+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:12:25.724+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:12:25.724+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:12:46.181+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:12:46.162+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 415, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 975, in send
+    self.connect()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3355114df0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3355114df0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 9, in <module>
+    from hist_day_data_fetch import save_pd_csv
+  File "/home/haboubi/Desktop/api/API_weather/./dags/hist_day_data_fetch.py", line 11, in <module>
+    req=requests.get(historical,params=params)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3355114df0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2023-07-05T09:12:46.190+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:12:46.268+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 20.554 seconds
+[2023-07-05T09:13:16.908+0100] {processor.py:157} INFO - Started process (PID=20526) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:13:16.909+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:13:16.910+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:13:16.910+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:13:37.247+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:13:37.237+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 415, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 975, in send
+    self.connect()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3364194df0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3364194df0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 9, in <module>
+    from hist_day_data_fetch import save_pd_csv
+  File "/home/haboubi/Desktop/api/API_weather/./dags/hist_day_data_fetch.py", line 11, in <module>
+    req=requests.get(historical,params=params)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3364194df0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2023-07-05T09:13:37.249+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:13:37.286+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 20.384 seconds
+[2023-07-05T09:14:08.146+0100] {processor.py:157} INFO - Started process (PID=20644) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:14:08.148+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:14:08.149+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:14:08.149+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:14:28.556+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:14:28.541+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 415, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 975, in send
+    self.connect()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3364194df0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3364194df0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 9, in <module>
+    from hist_day_data_fetch import save_pd_csv
+  File "/home/haboubi/Desktop/api/API_weather/./dags/hist_day_data_fetch.py", line 11, in <module>
+    req=requests.get(historical,params=params)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3364194df0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2023-07-05T09:14:28.560+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:14:28.653+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 20.517 seconds
+[2023-07-05T09:14:59.218+0100] {processor.py:157} INFO - Started process (PID=20948) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:14:59.220+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:14:59.223+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:14:59.222+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:15:19.610+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:15:19.599+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 415, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 975, in send
+    self.connect()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3364194df0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3364194df0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 9, in <module>
+    from hist_day_data_fetch import save_pd_csv
+  File "/home/haboubi/Desktop/api/API_weather/./dags/hist_day_data_fetch.py", line 11, in <module>
+    req=requests.get(historical,params=params)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3364194df0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2023-07-05T09:15:19.612+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:15:19.654+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 20.449 seconds
+[2023-07-05T09:15:50.304+0100] {processor.py:157} INFO - Started process (PID=21138) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:15:50.308+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:15:50.311+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:15:50.310+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:16:10.827+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:16:10.824+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 415, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 975, in send
+    self.connect()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3364180df0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3364180df0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 9, in <module>
+    from hist_day_data_fetch import save_pd_csv
+  File "/home/haboubi/Desktop/api/API_weather/./dags/hist_day_data_fetch.py", line 11, in <module>
+    req=requests.get(historical,params=params)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3364180df0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2023-07-05T09:16:10.828+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:16:10.856+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 20.568 seconds
+[2023-07-05T09:16:41.171+0100] {processor.py:157} INFO - Started process (PID=21674) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:16:41.173+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:16:41.175+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:16:41.174+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:17:01.555+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:17:01.552+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 415, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 975, in send
+    self.connect()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f3364180e20>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3364180e20>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 9, in <module>
+    from hist_day_data_fetch import save_pd_csv
+  File "/home/haboubi/Desktop/api/API_weather/./dags/hist_day_data_fetch.py", line 11, in <module>
+    req=requests.get(historical,params=params)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f3364180e20>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2023-07-05T09:17:01.556+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:17:01.587+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 20.423 seconds
+[2023-07-05T09:18:00.696+0100] {processor.py:157} INFO - Started process (PID=22546) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:18:00.697+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:18:00.699+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:18:00.698+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:18:21.204+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:18:21.200+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 415, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 975, in send
+    self.connect()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f10f5d9e350>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f10f5d9e350>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 9, in <module>
+    from hist_day_data_fetch import save_pd_csv
+  File "/home/haboubi/Desktop/api/API_weather/./dags/hist_day_data_fetch.py", line 11, in <module>
+    req=requests.get(historical,params=params)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f10f5d9e350>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2023-07-05T09:18:21.204+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:18:21.236+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 20.544 seconds
+[2023-07-05T09:18:51.665+0100] {processor.py:157} INFO - Started process (PID=23167) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:18:51.666+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:18:51.667+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:18:51.666+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:19:12.221+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:19:12.217+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 415, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 975, in send
+    self.connect()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f10f5ca74c0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f10f5ca74c0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 9, in <module>
+    from hist_day_data_fetch import save_pd_csv
+  File "/home/haboubi/Desktop/api/API_weather/./dags/hist_day_data_fetch.py", line 11, in <module>
+    req=requests.get(historical,params=params)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f10f5ca74c0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2023-07-05T09:19:12.222+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:19:12.252+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 20.594 seconds
+[2023-07-05T09:19:18.855+0100] {processor.py:157} INFO - Started process (PID=23234) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:19:18.856+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:19:18.858+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:19:18.858+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:19:18.859+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:19:18.859+0100] {dagbag.py:327} INFO - File /home/haboubi/Desktop/api/API_weather/dags/init_db.py assumed to contain no DAGs. Skipping.
+[2023-07-05T09:19:18.860+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:19:18.906+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 0.058 seconds
+[2023-07-05T09:19:28.975+0100] {processor.py:157} INFO - Started process (PID=23317) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:19:28.980+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:19:28.982+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:19:28.982+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:19:49.374+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:19:49.369+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 415, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 975, in send
+    self.connect()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f10f5ca34f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f10f5ca34f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 9, in <module>
+    from hist_day_data_fetch import save_pd_csv
+  File "/home/haboubi/Desktop/api/API_weather/./dags/hist_day_data_fetch.py", line 11, in <module>
+    req=requests.get(historical,params=params)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f10f5ca34f0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2023-07-05T09:19:49.375+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:19:49.411+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 20.445 seconds
+[2023-07-05T09:19:51.480+0100] {processor.py:157} INFO - Started process (PID=23467) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:19:51.484+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:19:51.488+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:19:51.487+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:20:11.902+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:20:11.897+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 415, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 975, in send
+    self.connect()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f10f5c9f550>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f10f5c9f550>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 9, in <module>
+    from hist_day_data_fetch import save_pd_csv
+  File "/home/haboubi/Desktop/api/API_weather/./dags/hist_day_data_fetch.py", line 11, in <module>
+    req=requests.get(historical,params=params)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/history.json?key=1d0031473f204204ba005152232406&q=London&dt=2023-06-01&end_dt=2023-06-02 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f10f5c9f550>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2023-07-05T09:20:11.903+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:20:11.950+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/init_db.py took 20.485 seconds
+[2023-07-05T09:20:42.431+0100] {processor.py:157} INFO - Started process (PID=23626) to work on /home/haboubi/Desktop/api/API_weather/dags/init_db.py
+[2023-07-05T09:20:42.434+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/init_db.py for tasks to queue
+[2023-07-05T09:20:42.437+0100] {logging_mixin.py:149} INFO - [2023-07-05T09:20:42.436+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/init_db.py

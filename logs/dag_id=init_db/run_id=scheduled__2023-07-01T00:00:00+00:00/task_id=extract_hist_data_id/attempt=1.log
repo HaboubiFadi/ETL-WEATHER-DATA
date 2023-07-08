@@ -1,0 +1,13 @@
+[2023-07-05T09:05:37.471+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: init_db.extract_hist_data_id scheduled__2023-07-01T00:00:00+00:00 [queued]>
+[2023-07-05T09:05:37.484+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: init_db.extract_hist_data_id scheduled__2023-07-01T00:00:00+00:00 [queued]>
+[2023-07-05T09:05:37.484+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-05T09:05:37.499+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): extract_hist_data_id> on 2023-07-01 00:00:00+00:00
+[2023-07-05T09:05:37.503+0100] {standard_task_runner.py:57} INFO - Started process 16860 to run task
+[2023-07-05T09:05:37.508+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'init_db', 'extract_hist_data_id', 'scheduled__2023-07-01T00:00:00+00:00', '--job-id', '172', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/init_db.py', '--cfg-path', '/tmp/tmpvxu4h0ql']
+[2023-07-05T09:05:37.509+0100] {standard_task_runner.py:85} INFO - Job 172: Subtask extract_hist_data_id
+[2023-07-05T09:05:37.579+0100] {task_command.py:410} INFO - Running <TaskInstance: init_db.extract_hist_data_id scheduled__2023-07-01T00:00:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-05T09:05:37.677+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='init_db' AIRFLOW_CTX_TASK_ID='extract_hist_data_id' AIRFLOW_CTX_EXECUTION_DATE='2023-07-01T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-07-01T00:00:00+00:00'
+[2023-07-05T09:07:40.871+0100] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-05T09:07:40.893+0100] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=init_db, task_id=extract_hist_data_id, execution_date=20230701T000000, start_date=20230705T080537, end_date=20230705T080740
+[2023-07-05T09:07:40.921+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-05T09:07:40.964+0100] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

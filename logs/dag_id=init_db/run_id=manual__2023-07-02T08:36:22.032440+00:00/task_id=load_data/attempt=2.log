@@ -1,0 +1,60 @@
+[2023-07-02T09:40:52.729+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: init_db.load_data manual__2023-07-02T08:36:22.032440+00:00 [queued]>
+[2023-07-02T09:40:52.741+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: init_db.load_data manual__2023-07-02T08:36:22.032440+00:00 [queued]>
+[2023-07-02T09:40:52.741+0100] {taskinstance.py:1308} INFO - Starting attempt 2 of 2
+[2023-07-02T09:40:52.755+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): load_data> on 2023-07-02 08:36:22.032440+00:00
+[2023-07-02T09:40:52.766+0100] {standard_task_runner.py:57} INFO - Started process 18764 to run task
+[2023-07-02T09:40:52.770+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'init_db', 'load_data', 'manual__2023-07-02T08:36:22.032440+00:00', '--job-id', '15', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/init_db.py', '--cfg-path', '/tmp/tmpse_pzxyo']
+[2023-07-02T09:40:52.772+0100] {standard_task_runner.py:85} INFO - Job 15: Subtask load_data
+[2023-07-02T09:40:52.870+0100] {task_command.py:410} INFO - Running <TaskInstance: init_db.load_data manual__2023-07-02T08:36:22.032440+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-02T09:40:52.975+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='init_db' AIRFLOW_CTX_TASK_ID='load_data' AIRFLOW_CTX_EXECUTION_DATE='2023-07-02T08:36:22.032440+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-02T08:36:22.032440+00:00'
+[2023-07-02T09:40:52.992+0100] {logging_mixin.py:149} INFO - sdqqqqqqqqqqqqqq None
+[2023-07-02T09:40:53.000+0100] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_db.py", line 25, in load_data
+    locs=location_fill_liste()
+  File "/home/haboubi/Desktop/api/API_weather/./dags/tools/ddd.py", line 25, in location_fill_liste
+    loc=Location(df.iloc[i])
+  File "<string>", line 4, in __init__
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/state.py", line 476, in _initialize_instance
+    manager.dispatch.init(self, args, kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/event/attr.py", line 334, in __call__
+    fn(*args, **kw)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/mapper.py", line 3716, in _event_on_init
+    instrumenting_mapper._check_configure()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/mapper.py", line 1941, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/mapper.py", line 3527, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/mapper.py", line 3566, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/mapper.py", line 1958, in _post_configure_properties
+    prop.init()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/interfaces.py", line 231, in init
+    self.do_init()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/relationships.py", line 2150, in do_init
+    self._process_dependent_arguments()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/relationships.py", line 2245, in _process_dependent_arguments
+    self.target = self.entity.persist_selectable
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 1113, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/relationships.py", line 2112, in entity
+    argument = self._clsregistry_resolve_name(self.argument)()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/clsregistry.py", line 393, in _resolve_name
+    rval = d[token]
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/util/_collections.py", line 746, in __missing__
+    self[key] = val = self.creator(key)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/clsregistry.py", line 352, in _access_cls
+    return _determine_container(key, decl_class_registry[key])
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/clsregistry.py", line 313, in _determine_container
+    value = value.attempt_get([], key)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/clsregistry.py", line 144, in attempt_get
+    raise exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: Multiple classes found for path "Hist_day" in the registry of this declarative base. Please use a fully module-qualified path.
+[2023-07-02T09:40:53.016+0100] {taskinstance.py:1345} INFO - Marking task as FAILED. dag_id=init_db, task_id=load_data, execution_date=20230702T083622, start_date=20230702T084052, end_date=20230702T084053
+[2023-07-02T09:40:53.027+0100] {standard_task_runner.py:104} ERROR - Failed to execute job 15 for task load_data (Multiple classes found for path "Hist_day" in the registry of this declarative base. Please use a fully module-qualified path.; 18764)
+[2023-07-02T09:40:53.067+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-07-02T09:40:53.110+0100] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

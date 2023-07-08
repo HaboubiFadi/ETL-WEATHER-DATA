@@ -1,0 +1,81 @@
+[2023-07-05T10:35:46.704+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: update_current_data_10.trigger_location_db scheduled__2023-05-07T07:00:00+00:00 [queued]>
+[2023-07-05T10:35:46.712+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: update_current_data_10.trigger_location_db scheduled__2023-05-07T07:00:00+00:00 [queued]>
+[2023-07-05T10:35:46.712+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-07-05T10:35:46.722+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): trigger_location_db> on 2023-05-07 07:00:00+00:00
+[2023-07-05T10:35:46.727+0100] {standard_task_runner.py:57} INFO - Started process 46569 to run task
+[2023-07-05T10:35:46.730+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'update_current_data_10', 'trigger_location_db', 'scheduled__2023-05-07T07:00:00+00:00', '--job-id', '316', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py', '--cfg-path', '/tmp/tmpg0d5xxzi']
+[2023-07-05T10:35:46.731+0100] {standard_task_runner.py:85} INFO - Job 316: Subtask trigger_location_db
+[2023-07-05T10:35:46.813+0100] {task_command.py:410} INFO - Running <TaskInstance: update_current_data_10.trigger_location_db scheduled__2023-05-07T07:00:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-05T10:35:46.914+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='update_current_data_10' AIRFLOW_CTX_TASK_ID='trigger_location_db' AIRFLOW_CTX_EXECUTION_DATE='2023-05-07T07:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-07T07:00:00+00:00'
+[2023-07-05T10:35:46.954+0100] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-05T10:35:46.969+0100] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=update_current_data_10, task_id=trigger_location_db, execution_date=20230507T070000, start_date=20230705T093546, end_date=20230705T093546
+[2023-07-05T10:35:46.985+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-05T10:35:47.016+0100] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-07-05T10:57:56.066+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: update_current_data_10.trigger_location_db scheduled__2023-05-07T07:00:00+00:00 [queued]>
+[2023-07-05T10:57:56.074+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: update_current_data_10.trigger_location_db scheduled__2023-05-07T07:00:00+00:00 [queued]>
+[2023-07-05T10:57:56.075+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-07-05T10:57:56.085+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): trigger_location_db> on 2023-05-07 07:00:00+00:00
+[2023-07-05T10:57:56.089+0100] {standard_task_runner.py:57} INFO - Started process 65050 to run task
+[2023-07-05T10:57:56.092+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'update_current_data_10', 'trigger_location_db', 'scheduled__2023-05-07T07:00:00+00:00', '--job-id', '625', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py', '--cfg-path', '/tmp/tmpdjey8jp5']
+[2023-07-05T10:57:56.093+0100] {standard_task_runner.py:85} INFO - Job 625: Subtask trigger_location_db
+[2023-07-05T10:57:56.163+0100] {task_command.py:410} INFO - Running <TaskInstance: update_current_data_10.trigger_location_db scheduled__2023-05-07T07:00:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-05T10:57:56.254+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='update_current_data_10' AIRFLOW_CTX_TASK_ID='trigger_location_db' AIRFLOW_CTX_EXECUTION_DATE='2023-05-07T07:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-07T07:00:00+00:00'
+[2023-07-05T10:57:56.275+0100] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1905, in _execute_context
+    self.dialect.do_execute(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedTable: relation "locations" does not exist
+LINE 2: FROM locations
+             ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py", line 23, in trigger_database_dag
+    locations=session.query(Location).all()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 2773, in all
+    return self._iter().all()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 2916, in _iter
+    result = self.session.execute(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1717, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1948, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2129, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1905, in _execute_context
+    self.dialect.do_execute(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedTable) relation "locations" does not exist
+LINE 2: FROM locations
+             ^
+
+[SQL: SELECT locations.id AS locations_id, locations.name AS locations_name, locations.country AS locations_country, locations.lat AS locations_lat, locations.lon AS locations_lon, locations.last_update_day AS locations_last_update_day 
+FROM locations]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+[2023-07-05T10:57:56.291+0100] {taskinstance.py:1345} INFO - Marking task as UP_FOR_RETRY. dag_id=update_current_data_10, task_id=trigger_location_db, execution_date=20230507T070000, start_date=20230705T095756, end_date=20230705T095756
+[2023-07-05T10:57:56.300+0100] {standard_task_runner.py:104} ERROR - Failed to execute job 625 for task trigger_location_db ((psycopg2.errors.UndefinedTable) relation "locations" does not exist
+LINE 2: FROM locations
+             ^
+
+[SQL: SELECT locations.id AS locations_id, locations.name AS locations_name, locations.country AS locations_country, locations.lat AS locations_lat, locations.lon AS locations_lon, locations.last_update_day AS locations_last_update_day 
+FROM locations]
+(Background on this error at: https://sqlalche.me/e/14/f405); 65050)
+[2023-07-05T10:57:56.344+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-07-05T10:57:56.374+0100] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

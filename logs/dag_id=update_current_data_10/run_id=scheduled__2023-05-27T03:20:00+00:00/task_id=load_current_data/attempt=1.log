@@ -1,0 +1,33 @@
+[2023-07-06T18:52:59.881+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: update_current_data_10.load_current_data scheduled__2023-05-27T03:20:00+00:00 [queued]>
+[2023-07-06T18:52:59.890+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: update_current_data_10.load_current_data scheduled__2023-05-27T03:20:00+00:00 [queued]>
+[2023-07-06T18:52:59.890+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-07-06T18:52:59.901+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): load_current_data> on 2023-05-27 03:20:00+00:00
+[2023-07-06T18:52:59.906+0100] {standard_task_runner.py:57} INFO - Started process 340357 to run task
+[2023-07-06T18:52:59.910+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'update_current_data_10', 'load_current_data', 'scheduled__2023-05-27T03:20:00+00:00', '--job-id', '6828', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py', '--cfg-path', '/tmp/tmpu2sy6pzo']
+[2023-07-06T18:52:59.911+0100] {standard_task_runner.py:85} INFO - Job 6828: Subtask load_current_data
+[2023-07-06T18:52:59.980+0100] {task_command.py:410} INFO - Running <TaskInstance: update_current_data_10.load_current_data scheduled__2023-05-27T03:20:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-06T18:53:00.095+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='update_current_data_10' AIRFLOW_CTX_TASK_ID='load_current_data' AIRFLOW_CTX_EXECUTION_DATE='2023-05-27T03:20:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-27T03:20:00+00:00'
+[2023-07-06T18:53:00.114+0100] {logging_mixin.py:149} INFO - ['Paris', datetime.date(2023, 7, 5)]
+[2023-07-06T18:53:00.168+0100] {logging_mixin.py:149} INFO - ['London', datetime.date(2023, 7, 5)]
+[2023-07-06T18:53:00.191+0100] {logging_mixin.py:149} INFO - ['Barcelona', datetime.date(2023, 7, 5)]
+[2023-07-06T18:53:00.214+0100] {logging_mixin.py:149} INFO - ['Rome', datetime.date(2023, 7, 5)]
+[2023-07-06T18:53:00.238+0100] {logging_mixin.py:149} INFO - ['New York', datetime.date(2023, 7, 5)]
+[2023-07-06T18:53:00.261+0100] {logging_mixin.py:149} INFO - ['Tokyo', datetime.date(2023, 7, 5)]
+[2023-07-06T18:53:00.372+0100] {logging_mixin.py:149} INFO - ['Istanbul', datetime.date(2023, 7, 5)]
+[2023-07-06T18:53:00.397+0100] {logging_mixin.py:149} INFO - ['Dubai', datetime.date(2023, 7, 5)]
+[2023-07-06T18:53:00.431+0100] {logging_mixin.py:149} INFO - ['Sydney', datetime.date(2023, 7, 5)]
+[2023-07-06T18:53:00.470+0100] {logging_mixin.py:149} INFO - ['Bangkok', datetime.date(2023, 7, 5)]
+[2023-07-06T18:53:00.493+0100] {logging_mixin.py:149} INFO - ['Amsterdam', datetime.date(2023, 7, 5)]
+[2023-07-06T18:53:00.522+0100] {logging_mixin.py:149} INFO - ['Rio De Janeiro', datetime.date(2023, 7, 5)]
+[2023-07-06T18:53:00.544+0100] {logging_mixin.py:149} INFO - ['Prague', datetime.date(2023, 7, 5)]
+[2023-07-06T18:53:00.568+0100] {logging_mixin.py:149} INFO - ['Cape Town', datetime.date(2023, 7, 5)]
+[2023-07-06T18:53:00.592+0100] {logging_mixin.py:149} INFO - ['Buenos Aires', datetime.date(2023, 7, 5)]
+[2023-07-06T18:53:00.616+0100] {logging_mixin.py:149} INFO - ['Berlin', datetime.date(2023, 7, 5)]
+[2023-07-06T18:53:00.640+0100] {logging_mixin.py:149} INFO - ['Singapore', datetime.date(2023, 7, 5)]
+[2023-07-06T18:53:00.719+0100] {logging_mixin.py:149} INFO - ['Florence', datetime.date(2023, 7, 5)]
+[2023-07-06T18:53:00.743+0100] {logging_mixin.py:149} INFO - ['San Francisco', datetime.date(2023, 7, 5)]
+[2023-07-06T18:53:00.768+0100] {logging_mixin.py:149} INFO - ['Marrakech', datetime.date(2023, 7, 5)]
+[2023-07-06T18:53:00.792+0100] {python.py:183} INFO - Done. Returned value was: 0
+[2023-07-06T18:53:00.833+0100] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=update_current_data_10, task_id=load_current_data, execution_date=20230527T032000, start_date=20230706T175259, end_date=20230706T175300
+[2023-07-06T18:53:00.884+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-06T18:53:00.911+0100] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

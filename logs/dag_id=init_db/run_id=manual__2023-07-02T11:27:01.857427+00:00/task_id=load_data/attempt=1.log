@@ -1,0 +1,33 @@
+[2023-07-02T12:29:12.252+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: init_db.load_data manual__2023-07-02T11:27:01.857427+00:00 [queued]>
+[2023-07-02T12:29:12.260+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: init_db.load_data manual__2023-07-02T11:27:01.857427+00:00 [queued]>
+[2023-07-02T12:29:12.260+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-02T12:29:12.272+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): load_data> on 2023-07-02 11:27:01.857427+00:00
+[2023-07-02T12:29:12.275+0100] {standard_task_runner.py:57} INFO - Started process 12556 to run task
+[2023-07-02T12:29:12.278+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'init_db', 'load_data', 'manual__2023-07-02T11:27:01.857427+00:00', '--job-id', '39', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/init_db.py', '--cfg-path', '/tmp/tmpenwaehdi']
+[2023-07-02T12:29:12.280+0100] {standard_task_runner.py:85} INFO - Job 39: Subtask load_data
+[2023-07-02T12:29:12.343+0100] {task_command.py:410} INFO - Running <TaskInstance: init_db.load_data manual__2023-07-02T11:27:01.857427+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-02T12:29:12.440+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='init_db' AIRFLOW_CTX_TASK_ID='load_data' AIRFLOW_CTX_EXECUTION_DATE='2023-07-02T11:27:01.857427+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-02T11:27:01.857427+00:00'
+[2023-07-02T12:29:12.510+0100] {logging_mixin.py:149} INFO - <class 'numpy.float64'>
+[2023-07-02T12:29:12.531+0100] {logging_mixin.py:149} INFO - <class 'numpy.float64'>
+[2023-07-02T12:29:12.552+0100] {logging_mixin.py:149} INFO - <class 'numpy.float64'>
+[2023-07-02T12:29:12.575+0100] {logging_mixin.py:149} INFO - <class 'numpy.float64'>
+[2023-07-02T12:29:12.596+0100] {logging_mixin.py:149} INFO - <class 'numpy.float64'>
+[2023-07-02T12:29:12.617+0100] {logging_mixin.py:149} INFO - <class 'numpy.float64'>
+[2023-07-02T12:29:12.637+0100] {logging_mixin.py:149} INFO - <class 'numpy.float64'>
+[2023-07-02T12:29:12.657+0100] {logging_mixin.py:149} INFO - <class 'numpy.float64'>
+[2023-07-02T12:29:12.680+0100] {logging_mixin.py:149} INFO - <class 'numpy.float64'>
+[2023-07-02T12:29:12.700+0100] {logging_mixin.py:149} INFO - <class 'numpy.float64'>
+[2023-07-02T12:29:12.720+0100] {logging_mixin.py:149} INFO - <class 'numpy.float64'>
+[2023-07-02T12:29:12.740+0100] {logging_mixin.py:149} INFO - <class 'numpy.float64'>
+[2023-07-02T12:29:12.760+0100] {logging_mixin.py:149} INFO - <class 'numpy.float64'>
+[2023-07-02T12:29:12.781+0100] {logging_mixin.py:149} INFO - <class 'numpy.float64'>
+[2023-07-02T12:29:12.805+0100] {logging_mixin.py:149} INFO - <class 'numpy.float64'>
+[2023-07-02T12:29:12.825+0100] {logging_mixin.py:149} INFO - <class 'numpy.float64'>
+[2023-07-02T12:29:12.846+0100] {logging_mixin.py:149} INFO - <class 'numpy.float64'>
+[2023-07-02T12:29:12.867+0100] {logging_mixin.py:149} INFO - <class 'numpy.float64'>
+[2023-07-02T12:29:12.889+0100] {logging_mixin.py:149} INFO - <class 'numpy.float64'>
+[2023-07-02T12:29:12.909+0100] {logging_mixin.py:149} INFO - <class 'numpy.float64'>
+[2023-07-02T12:29:13.326+0100] {python.py:183} INFO - Done. Returned value was: None
+[2023-07-02T12:29:13.341+0100] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=init_db, task_id=load_data, execution_date=20230702T112701, start_date=20230702T112912, end_date=20230702T112913
+[2023-07-02T12:29:13.372+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-02T12:29:13.399+0100] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

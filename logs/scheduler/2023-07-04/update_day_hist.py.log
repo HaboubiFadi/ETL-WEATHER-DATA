@@ -1,0 +1,56 @@
+[2023-07-04T16:16:22.883+0100] {processor.py:157} INFO - Started process (PID=51946) to work on /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:16:22.884+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py for tasks to queue
+[2023-07-04T16:16:22.886+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:16:22.885+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:16:23.711+0100] {processor.py:836} INFO - DAG(s) dict_keys(['updated_day_hist_forcast_data']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:16:23.749+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:16:23.749+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-04T16:16:23.771+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:16:23.770+0100] {dag.py:3486} INFO - Setting next_dagrun for updated_day_hist_forcast_data to 2023-07-04T00:00:00+00:00, run_after=2023-07-05T00:00:00+00:00
+[2023-07-04T16:16:23.792+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py took 0.913 seconds
+[2023-07-04T16:16:54.278+0100] {processor.py:157} INFO - Started process (PID=52261) to work on /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:16:54.280+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py for tasks to queue
+[2023-07-04T16:16:54.283+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:16:54.282+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:16:54.881+0100] {processor.py:836} INFO - DAG(s) dict_keys(['updated_day_hist_forcast_data']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:16:54.957+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:16:54.956+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-04T16:16:55.013+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:16:55.013+0100] {dag.py:3486} INFO - Setting next_dagrun for updated_day_hist_forcast_data to 2023-07-04T00:00:00+00:00, run_after=2023-07-05T00:00:00+00:00
+[2023-07-04T16:16:55.049+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py took 0.776 seconds
+[2023-07-04T16:17:25.600+0100] {processor.py:157} INFO - Started process (PID=52613) to work on /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:17:25.610+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py for tasks to queue
+[2023-07-04T16:17:25.612+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:17:25.611+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:17:26.133+0100] {processor.py:836} INFO - DAG(s) dict_keys(['updated_day_hist_forcast_data']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:17:26.179+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:17:26.178+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-04T16:17:26.212+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:17:26.212+0100] {dag.py:3486} INFO - Setting next_dagrun for updated_day_hist_forcast_data to 2023-07-04T00:00:00+00:00, run_after=2023-07-05T00:00:00+00:00
+[2023-07-04T16:17:26.234+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py took 0.649 seconds
+[2023-07-04T16:17:56.619+0100] {processor.py:157} INFO - Started process (PID=52942) to work on /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:17:56.631+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py for tasks to queue
+[2023-07-04T16:17:56.639+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:17:56.633+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:17:57.127+0100] {processor.py:836} INFO - DAG(s) dict_keys(['updated_day_hist_forcast_data']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:17:57.178+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:17:57.177+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-04T16:17:57.208+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:17:57.208+0100] {dag.py:3486} INFO - Setting next_dagrun for updated_day_hist_forcast_data to 2023-07-04T00:00:00+00:00, run_after=2023-07-05T00:00:00+00:00
+[2023-07-04T16:17:57.233+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py took 0.638 seconds
+[2023-07-04T16:18:27.645+0100] {processor.py:157} INFO - Started process (PID=53531) to work on /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:18:27.646+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py for tasks to queue
+[2023-07-04T16:18:27.647+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:18:27.647+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:18:28.091+0100] {processor.py:836} INFO - DAG(s) dict_keys(['updated_day_hist_forcast_data']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:18:28.127+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:18:28.126+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-04T16:18:28.152+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:18:28.151+0100] {dag.py:3486} INFO - Setting next_dagrun for updated_day_hist_forcast_data to 2023-07-04T00:00:00+00:00, run_after=2023-07-05T00:00:00+00:00
+[2023-07-04T16:18:28.172+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py took 0.533 seconds
+[2023-07-04T16:18:58.541+0100] {processor.py:157} INFO - Started process (PID=53769) to work on /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:18:58.546+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py for tasks to queue
+[2023-07-04T16:18:58.549+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:18:58.548+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:18:58.969+0100] {processor.py:836} INFO - DAG(s) dict_keys(['updated_day_hist_forcast_data']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:18:59.007+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:18:59.007+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-04T16:18:59.029+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:18:59.028+0100] {dag.py:3486} INFO - Setting next_dagrun for updated_day_hist_forcast_data to 2023-07-04T00:00:00+00:00, run_after=2023-07-05T00:00:00+00:00
+[2023-07-04T16:18:59.045+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py took 0.518 seconds
+[2023-07-04T16:19:29.417+0100] {processor.py:157} INFO - Started process (PID=53982) to work on /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:19:29.420+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py for tasks to queue
+[2023-07-04T16:19:29.423+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:19:29.422+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:19:29.928+0100] {processor.py:836} INFO - DAG(s) dict_keys(['updated_day_hist_forcast_data']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:19:29.967+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:19:29.967+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-04T16:19:29.989+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:19:29.989+0100] {dag.py:3486} INFO - Setting next_dagrun for updated_day_hist_forcast_data to 2023-07-04T00:00:00+00:00, run_after=2023-07-05T00:00:00+00:00
+[2023-07-04T16:19:30.012+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py took 0.606 seconds
+[2023-07-04T16:20:00.481+0100] {processor.py:157} INFO - Started process (PID=54234) to work on /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:20:00.490+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py for tasks to queue
+[2023-07-04T16:20:00.492+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:20:00.492+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:20:00.901+0100] {processor.py:836} INFO - DAG(s) dict_keys(['updated_day_hist_forcast_data']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py
+[2023-07-04T16:20:00.940+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:20:00.939+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-04T16:20:00.971+0100] {logging_mixin.py:149} INFO - [2023-07-04T16:20:00.971+0100] {dag.py:3486} INFO - Setting next_dagrun for updated_day_hist_forcast_data to 2023-07-04T00:00:00+00:00, run_after=2023-07-05T00:00:00+00:00
+[2023-07-04T16:20:00.991+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py took 0.525 seconds

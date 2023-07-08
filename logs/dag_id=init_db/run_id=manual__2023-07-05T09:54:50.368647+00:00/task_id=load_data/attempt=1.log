@@ -1,0 +1,98 @@
+[2023-07-05T10:57:34.238+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: init_db.load_data manual__2023-07-05T09:54:50.368647+00:00 [queued]>
+[2023-07-05T10:57:34.250+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: init_db.load_data manual__2023-07-05T09:54:50.368647+00:00 [queued]>
+[2023-07-05T10:57:34.250+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-05T10:57:34.266+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): load_data> on 2023-07-05 09:54:50.368647+00:00
+[2023-07-05T10:57:34.271+0100] {standard_task_runner.py:57} INFO - Started process 64704 to run task
+[2023-07-05T10:57:34.274+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'init_db', 'load_data', 'manual__2023-07-05T09:54:50.368647+00:00', '--job-id', '621', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/init_.py', '--cfg-path', '/tmp/tmp9ys26ilo']
+[2023-07-05T10:57:34.275+0100] {standard_task_runner.py:85} INFO - Job 621: Subtask load_data
+[2023-07-05T10:57:34.354+0100] {task_command.py:410} INFO - Running <TaskInstance: init_db.load_data manual__2023-07-05T09:54:50.368647+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-05T10:57:34.483+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='init_db' AIRFLOW_CTX_TASK_ID='load_data' AIRFLOW_CTX_EXECUTION_DATE='2023-07-05T09:54:50.368647+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-05T09:54:50.368647+00:00'
+[2023-07-05T10:57:34.521+0100] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1905, in _execute_context
+    self.dialect.do_execute(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+psycopg2.errors.UndefinedObject: type "datetime" does not exist
+LINE 7:  date DATETIME, 
+              ^
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/dags/init_.py", line 20, in load_data
+    Base.metadata.create_all(engine)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/sql/schema.py", line 4930, in create_all
+    bind._run_ddl_visitor(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 3233, in _run_ddl_visitor
+    conn._run_ddl_visitor(visitorcallable, element, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2216, in _run_ddl_visitor
+    visitorcallable(self.dialect, self, **kwargs).traverse_single(element)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/sql/visitors.py", line 524, in traverse_single
+    return meth(obj, **kw)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/sql/ddl.py", line 855, in visit_metadata
+    self.traverse_single(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/sql/visitors.py", line 524, in traverse_single
+    return meth(obj, **kw)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/sql/ddl.py", line 899, in visit_table
+    self.connection.execute(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1385, in execute
+    return meth(self, multiparams, params, _EMPTY_EXECUTION_OPTS)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/sql/ddl.py", line 80, in _execute_on_connection
+    return connection._execute_ddl(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1477, in _execute_ddl
+    ret = self._execute_context(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1948, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2129, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1905, in _execute_context
+    self.dialect.do_execute(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.ProgrammingError: (psycopg2.errors.UndefinedObject) type "datetime" does not exist
+LINE 7:  date DATETIME, 
+              ^
+
+[SQL: 
+CREATE TABLE current (
+	id SERIAL NOT NULL, 
+	temp_c INTEGER, 
+	humidity INTEGER, 
+	condition VARCHAR, 
+	date DATETIME, 
+	location_id INTEGER, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(location_id) REFERENCES locations (id)
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/f405)
+[2023-07-05T10:57:34.538+0100] {taskinstance.py:1345} INFO - Marking task as FAILED. dag_id=init_db, task_id=load_data, execution_date=20230705T095450, start_date=20230705T095734, end_date=20230705T095734
+[2023-07-05T10:57:34.547+0100] {standard_task_runner.py:104} ERROR - Failed to execute job 621 for task load_data ((psycopg2.errors.UndefinedObject) type "datetime" does not exist
+LINE 7:  date DATETIME, 
+              ^
+
+[SQL: 
+CREATE TABLE current (
+	id SERIAL NOT NULL, 
+	temp_c INTEGER, 
+	humidity INTEGER, 
+	condition VARCHAR, 
+	date DATETIME, 
+	location_id INTEGER, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(location_id) REFERENCES locations (id)
+)
+
+]
+(Background on this error at: https://sqlalche.me/e/14/f405); 64704)
+[2023-07-05T10:57:34.567+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-07-05T10:57:34.628+0100] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

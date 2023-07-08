@@ -1,0 +1,83 @@
+[2023-07-05T12:39:35.733+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: update_current_data_10.extract_current_data scheduled__2023-05-11T00:40:00+00:00 [queued]>
+[2023-07-05T12:39:35.741+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: update_current_data_10.extract_current_data scheduled__2023-05-11T00:40:00+00:00 [queued]>
+[2023-07-05T12:39:35.741+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-07-05T12:39:35.752+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): extract_current_data> on 2023-05-11 00:40:00+00:00
+[2023-07-05T12:39:35.756+0100] {standard_task_runner.py:57} INFO - Started process 142113 to run task
+[2023-07-05T12:39:35.759+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'update_current_data_10', 'extract_current_data', 'scheduled__2023-05-11T00:40:00+00:00', '--job-id', '1987', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py', '--cfg-path', '/tmp/tmp0_lhg7_7']
+[2023-07-05T12:39:35.761+0100] {standard_task_runner.py:85} INFO - Job 1987: Subtask extract_current_data
+[2023-07-05T12:39:35.824+0100] {task_command.py:410} INFO - Running <TaskInstance: update_current_data_10.extract_current_data scheduled__2023-05-11T00:40:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-05T12:39:35.917+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='update_current_data_10' AIRFLOW_CTX_TASK_ID='extract_current_data' AIRFLOW_CTX_EXECUTION_DATE='2023-05-11T00:40:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-11T00:40:00+00:00'
+[2023-07-05T12:39:55.959+0100] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/usr/lib/python3.10/socket.py", line 955, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 415, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 244, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "/usr/lib/python3.10/http/client.py", line 1282, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1328, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1277, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib/python3.10/http/client.py", line 1037, in _send_output
+    self.send(msg)
+  File "/usr/lib/python3.10/http/client.py", line 975, in send
+    self.connect()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f30fa2ac7c0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/urllib3/util/retry.py", line 592, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/current.json?key=1d0031473f204204ba005152232406&q=Paris (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f30fa2ac7c0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py", line 30, in extract_data
+    save_current_pd_csv()
+  File "/home/haboubi/Desktop/api/API_weather/./dags/current_data_fetch.py", line 100, in save_current_pd_csv
+    df,location_df=create_current_data_pd_total(location_df,city=c)
+  File "/home/haboubi/Desktop/api/API_weather/./dags/current_data_fetch.py", line 45, in create_current_data_pd_total
+    r=requests.get(historical,params=param)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/adapters.py", line 519, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/current.json?key=1d0031473f204204ba005152232406&q=Paris (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f30fa2ac7c0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution'))
+[2023-07-05T12:39:55.981+0100] {taskinstance.py:1345} INFO - Marking task as UP_FOR_RETRY. dag_id=update_current_data_10, task_id=extract_current_data, execution_date=20230511T004000, start_date=20230705T113935, end_date=20230705T113955
+[2023-07-05T12:39:55.994+0100] {standard_task_runner.py:104} ERROR - Failed to execute job 1987 for task extract_current_data (HTTPConnectionPool(host='api.weatherapi.com', port=80): Max retries exceeded with url: /v1/current.json?key=1d0031473f204204ba005152232406&q=Paris (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f30fa2ac7c0>: Failed to establish a new connection: [Errno -3] Temporary failure in name resolution')); 142113)
+[2023-07-05T12:39:56.025+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-07-05T12:39:56.053+0100] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

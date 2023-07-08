@@ -1,0 +1,35 @@
+[2023-07-08T09:16:49.558+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: updated_day_hist_forcast_data.load_updated_data_hist_forcast manual__2023-07-08T08:14:24.988850+00:00 [queued]>
+[2023-07-08T09:16:49.578+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: updated_day_hist_forcast_data.load_updated_data_hist_forcast manual__2023-07-08T08:14:24.988850+00:00 [queued]>
+[2023-07-08T09:16:49.580+0100] {taskinstance.py:1308} INFO - Starting attempt 2 of 3
+[2023-07-08T09:16:49.656+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): load_updated_data_hist_forcast> on 2023-07-08 08:14:24.988850+00:00
+[2023-07-08T09:16:49.663+0100] {standard_task_runner.py:57} INFO - Started process 14490 to run task
+[2023-07-08T09:16:49.667+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'updated_day_hist_forcast_data', 'load_updated_data_hist_forcast', 'manual__2023-07-08T08:14:24.988850+00:00', '--job-id', '16944', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/update_day_hist_forcast.py', '--cfg-path', '/tmp/tmpe84cm9n5']
+[2023-07-08T09:16:49.670+0100] {standard_task_runner.py:85} INFO - Job 16944: Subtask load_updated_data_hist_forcast
+[2023-07-08T09:16:49.825+0100] {task_command.py:410} INFO - Running <TaskInstance: updated_day_hist_forcast_data.load_updated_data_hist_forcast manual__2023-07-08T08:14:24.988850+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-08T09:16:50.090+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='updated_day_hist_forcast_data' AIRFLOW_CTX_TASK_ID='load_updated_data_hist_forcast' AIRFLOW_CTX_EXECUTION_DATE='2023-07-08T08:14:24.988850+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-08T08:14:24.988850+00:00'
+[2023-07-08T09:16:50.100+0100] {logging_mixin.py:149} INFO - debug prb: Paris
+[2023-07-08T09:16:50.159+0100] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/dags/update_day_hist_forcast.py", line 61, in load_updated_data_db
+    loc=update_location_entite(loc)
+  File "/home/haboubi/Desktop/api/API_weather/dags/update_day_hist_forcast.py", line 40, in update_location_entite
+    hist_days_csv=pd.read_csv(directory_hist,sep='\t')
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 912, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 577, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1407, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/pandas/io/parsers/readers.py", line 1661, in _make_engine
+    self.handles = get_handle(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/pandas/io/common.py", line 859, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: 'city_hist_updated/Paris.csv'
+[2023-07-08T09:16:50.190+0100] {taskinstance.py:1345} INFO - Marking task as UP_FOR_RETRY. dag_id=updated_day_hist_forcast_data, task_id=load_updated_data_hist_forcast, execution_date=20230708T081424, start_date=20230708T081649, end_date=20230708T081650
+[2023-07-08T09:16:50.233+0100] {standard_task_runner.py:104} ERROR - Failed to execute job 16944 for task load_updated_data_hist_forcast ([Errno 2] No such file or directory: 'city_hist_updated/Paris.csv'; 14490)
+[2023-07-08T09:16:50.247+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-07-08T09:16:50.322+0100] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

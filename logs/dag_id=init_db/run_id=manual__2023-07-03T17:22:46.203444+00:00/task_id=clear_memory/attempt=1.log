@@ -1,0 +1,13 @@
+[2023-07-03T18:25:30.991+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: init_db.clear_memory manual__2023-07-03T17:22:46.203444+00:00 [queued]>
+[2023-07-03T18:25:31.001+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: init_db.clear_memory manual__2023-07-03T17:22:46.203444+00:00 [queued]>
+[2023-07-03T18:25:31.001+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 1
+[2023-07-03T18:25:31.015+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): clear_memory> on 2023-07-03 17:22:46.203444+00:00
+[2023-07-03T18:25:31.018+0100] {standard_task_runner.py:57} INFO - Started process 48553 to run task
+[2023-07-03T18:25:31.021+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'init_db', 'clear_memory', 'manual__2023-07-03T17:22:46.203444+00:00', '--job-id', '114', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/init_db.py', '--cfg-path', '/tmp/tmp_c7uun86']
+[2023-07-03T18:25:31.023+0100] {standard_task_runner.py:85} INFO - Job 114: Subtask clear_memory
+[2023-07-03T18:25:31.093+0100] {task_command.py:410} INFO - Running <TaskInstance: init_db.clear_memory manual__2023-07-03T17:22:46.203444+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-03T18:25:31.212+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='init_db' AIRFLOW_CTX_TASK_ID='clear_memory' AIRFLOW_CTX_EXECUTION_DATE='2023-07-03T17:22:46.203444+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-07-03T17:22:46.203444+00:00'
+[2023-07-03T18:25:31.214+0100] {python.py:183} INFO - Done. Returned value was: 0
+[2023-07-03T18:25:31.252+0100] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=init_db, task_id=clear_memory, execution_date=20230703T172246, start_date=20230703T172530, end_date=20230703T172531
+[2023-07-03T18:25:31.273+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-07-03T18:25:31.300+0100] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

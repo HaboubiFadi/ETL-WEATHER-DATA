@@ -1,0 +1,441 @@
+[2023-07-08T09:07:05.802+0100] {processor.py:157} INFO - Started process (PID=10367) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:07:05.803+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:07:05.804+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:07:05.804+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:07:06.801+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:07:06.876+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:07:06.874+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:07:06.928+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:07:06.928+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T07:40:00+00:00, run_after=2023-07-08T08:00:00+00:00
+[2023-07-08T09:07:06.962+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 1.165 seconds
+[2023-07-08T09:07:37.158+0100] {processor.py:157} INFO - Started process (PID=11093) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:07:37.159+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:07:37.160+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:07:37.160+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:07:37.694+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:07:37.739+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:07:37.739+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:07:37.774+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:07:37.774+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:07:37.796+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.643 seconds
+[2023-07-08T09:08:08.060+0100] {processor.py:157} INFO - Started process (PID=11375) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:08:08.061+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:08:08.063+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:08:08.062+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:08:08.489+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:08:08.529+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:08:08.528+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:08:08.562+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:08:08.562+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:08:08.580+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.524 seconds
+[2023-07-08T09:08:39.001+0100] {processor.py:157} INFO - Started process (PID=11422) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:08:39.004+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:08:39.006+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:08:39.005+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:08:39.594+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:08:39.682+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:08:39.680+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:08:39.739+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:08:39.739+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:08:39.795+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.798 seconds
+[2023-07-08T09:09:09.909+0100] {processor.py:157} INFO - Started process (PID=11469) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:09:09.911+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:09:09.914+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:09:09.913+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:09:10.524+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:09:10.584+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:09:10.583+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:09:10.624+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:09:10.624+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:09:10.648+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.750 seconds
+[2023-07-08T09:09:41.095+0100] {processor.py:157} INFO - Started process (PID=11499) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:09:41.097+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:09:41.098+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:09:41.097+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:09:41.603+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:09:41.643+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:09:41.643+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:09:41.672+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:09:41.671+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:09:41.693+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.602 seconds
+[2023-07-08T09:10:11.990+0100] {processor.py:157} INFO - Started process (PID=11548) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:10:11.992+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:10:11.996+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:10:11.995+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:10:12.541+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:10:12.628+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:10:12.627+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:10:12.680+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:10:12.679+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:10:12.713+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.728 seconds
+[2023-07-08T09:10:43.102+0100] {processor.py:157} INFO - Started process (PID=11583) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:10:43.104+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:10:43.106+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:10:43.105+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:10:43.570+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:10:43.610+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:10:43.609+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:10:43.653+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:10:43.653+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:10:43.676+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.581 seconds
+[2023-07-08T09:11:14.024+0100] {processor.py:157} INFO - Started process (PID=11611) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:11:14.027+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:11:14.030+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:11:14.029+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:11:14.495+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:11:14.533+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:11:14.533+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:11:14.576+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:11:14.576+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:11:14.594+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.582 seconds
+[2023-07-08T09:11:44.907+0100] {processor.py:157} INFO - Started process (PID=11648) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:11:44.909+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:11:44.911+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:11:44.911+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:11:45.284+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:11:45.323+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:11:45.322+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:11:45.349+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:11:45.349+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:11:45.368+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.471 seconds
+[2023-07-08T09:12:15.664+0100] {processor.py:157} INFO - Started process (PID=11702) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:12:15.665+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:12:15.666+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:12:15.665+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:12:16.107+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:12:16.153+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:12:16.153+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:12:16.188+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:12:16.188+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:12:16.212+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.553 seconds
+[2023-07-08T09:12:46.455+0100] {processor.py:157} INFO - Started process (PID=11735) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:12:46.457+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:12:46.458+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:12:46.458+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:12:46.908+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:12:46.952+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:12:46.952+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:12:46.987+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:12:46.987+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:12:47.009+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.560 seconds
+[2023-07-08T09:13:17.234+0100] {processor.py:157} INFO - Started process (PID=11765) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:13:17.235+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:13:17.236+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:13:17.236+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:13:17.709+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:13:17.755+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:13:17.754+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:13:17.789+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:13:17.789+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:13:17.810+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.581 seconds
+[2023-07-08T09:13:48.075+0100] {processor.py:157} INFO - Started process (PID=11850) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:13:48.077+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:13:48.078+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:13:48.078+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:13:48.501+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:13:48.565+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:13:48.563+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:13:48.611+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:13:48.611+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:13:48.637+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.568 seconds
+[2023-07-08T09:14:18.958+0100] {processor.py:157} INFO - Started process (PID=12171) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:14:18.959+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:14:18.961+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:14:18.960+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:14:19.341+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:14:19.380+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:14:19.379+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:14:19.412+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:14:19.412+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:14:19.434+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.482 seconds
+[2023-07-08T09:14:49.713+0100] {processor.py:157} INFO - Started process (PID=12616) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:14:49.724+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:14:49.725+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:14:49.725+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:14:50.371+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:14:50.419+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:14:50.417+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:14:50.468+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:14:50.468+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:14:50.509+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.800 seconds
+[2023-07-08T09:15:20.824+0100] {processor.py:157} INFO - Started process (PID=13062) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:15:20.825+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:15:20.826+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:15:20.826+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:15:21.413+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:15:21.465+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:15:21.465+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:15:21.507+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:15:21.507+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:15:21.547+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.730 seconds
+[2023-07-08T09:15:51.814+0100] {processor.py:157} INFO - Started process (PID=13774) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:15:51.820+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:15:51.821+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:15:51.821+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:15:52.588+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:15:52.687+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:15:52.686+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:15:52.765+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:15:52.765+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:15:52.833+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 1.023 seconds
+[2023-07-08T09:16:23.313+0100] {processor.py:157} INFO - Started process (PID=14085) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:16:23.314+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:16:23.315+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:16:23.315+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:16:23.812+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:16:23.870+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:16:23.869+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:16:23.954+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:16:23.954+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:16:24.019+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.711 seconds
+[2023-07-08T09:16:54.457+0100] {processor.py:157} INFO - Started process (PID=14569) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:16:54.458+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:16:54.459+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:16:54.459+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:16:55.351+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:16:55.431+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:16:55.430+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:16:55.480+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:16:55.480+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:16:55.525+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 1.074 seconds
+[2023-07-08T09:17:25.800+0100] {processor.py:157} INFO - Started process (PID=14801) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:17:25.802+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:17:25.803+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:17:25.803+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:17:26.177+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:17:26.214+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:17:26.213+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:17:26.248+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:17:26.248+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:17:26.292+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.495 seconds
+[2023-07-08T09:17:56.643+0100] {processor.py:157} INFO - Started process (PID=15063) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:17:56.645+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:17:56.646+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:17:56.645+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:17:57.282+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:17:57.393+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:17:57.392+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:17:57.449+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:17:57.449+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:17:57.500+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.861 seconds
+[2023-07-08T09:18:27.662+0100] {processor.py:157} INFO - Started process (PID=15210) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:18:27.663+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:18:27.664+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:18:27.664+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:18:28.057+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:18:28.101+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:18:28.101+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:18:28.131+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:18:28.131+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:18:28.181+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.523 seconds
+[2023-07-08T09:18:58.510+0100] {processor.py:157} INFO - Started process (PID=15289) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:18:58.524+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:18:58.525+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:18:58.525+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:18:59.272+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:18:59.337+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:18:59.336+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:18:59.401+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:18:59.401+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:18:59.440+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.935 seconds
+[2023-07-08T09:19:29.796+0100] {processor.py:157} INFO - Started process (PID=15469) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:19:29.797+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:19:29.798+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:19:29.798+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:19:30.248+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:19:30.291+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:19:30.290+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:19:30.328+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:19:30.328+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:00:00+00:00, run_after=2023-07-08T08:20:00+00:00
+[2023-07-08T09:19:30.350+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.560 seconds
+[2023-07-08T09:20:00.616+0100] {processor.py:157} INFO - Started process (PID=15524) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:20:00.617+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:20:00.618+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:20:00.618+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:20:01.121+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:20:01.174+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:20:01.173+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:20:01.215+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:20:01.214+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:20:01.240+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.628 seconds
+[2023-07-08T09:20:31.573+0100] {processor.py:157} INFO - Started process (PID=15798) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:20:31.575+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:20:31.576+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:20:31.576+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:20:32.028+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:20:32.071+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:20:32.071+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:20:32.101+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:20:32.101+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:20:32.121+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.552 seconds
+[2023-07-08T09:21:02.399+0100] {processor.py:157} INFO - Started process (PID=15834) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:21:02.401+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:21:02.403+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:21:02.402+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:21:02.805+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:21:02.851+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:21:02.850+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:21:02.880+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:21:02.879+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:21:02.902+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.506 seconds
+[2023-07-08T09:21:33.151+0100] {processor.py:157} INFO - Started process (PID=15922) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:21:33.155+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:21:33.157+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:21:33.156+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:21:33.772+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:21:33.843+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:21:33.842+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:21:33.914+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:21:33.913+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:21:33.956+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.812 seconds
+[2023-07-08T09:22:04.401+0100] {processor.py:157} INFO - Started process (PID=15968) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:22:04.403+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:22:04.405+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:22:04.404+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:22:04.795+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:22:04.847+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:22:04.846+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:22:04.883+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:22:04.883+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:22:04.904+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.510 seconds
+[2023-07-08T09:22:35.208+0100] {processor.py:157} INFO - Started process (PID=16030) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:22:35.209+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:22:35.211+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:22:35.210+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:22:35.603+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:22:35.644+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:22:35.644+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:22:35.672+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:22:35.672+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:22:35.696+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.494 seconds
+[2023-07-08T09:23:05.999+0100] {processor.py:157} INFO - Started process (PID=16080) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:23:06.000+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:23:06.001+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:23:06.001+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:23:06.571+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:23:06.626+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:23:06.625+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:23:06.662+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:23:06.662+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:23:06.697+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.701 seconds
+[2023-07-08T09:23:37.044+0100] {processor.py:157} INFO - Started process (PID=16184) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:23:37.048+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:23:37.056+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:23:37.056+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:23:37.647+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:23:37.693+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:23:37.692+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:23:37.735+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:23:37.735+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:23:37.776+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.748 seconds
+[2023-07-08T09:24:08.100+0100] {processor.py:157} INFO - Started process (PID=16244) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:24:08.102+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:24:08.103+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:24:08.103+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:24:08.534+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:24:08.579+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:24:08.578+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:24:08.617+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:24:08.617+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:24:08.643+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.549 seconds
+[2023-07-08T09:24:38.929+0100] {processor.py:157} INFO - Started process (PID=16277) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:24:38.931+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:24:38.932+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:24:38.932+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:24:39.405+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:24:39.461+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:24:39.461+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:24:39.505+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:24:39.504+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:24:39.555+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.631 seconds
+[2023-07-08T09:25:09.893+0100] {processor.py:157} INFO - Started process (PID=16314) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:25:09.895+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:25:09.897+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:25:09.896+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:25:10.357+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:25:10.393+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:25:10.392+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:25:10.418+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:25:10.418+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:25:10.439+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.554 seconds
+[2023-07-08T09:25:40.746+0100] {processor.py:157} INFO - Started process (PID=16343) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:25:40.748+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:25:40.749+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:25:40.749+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:25:41.259+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:25:41.312+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:25:41.312+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:25:41.359+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:25:41.359+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:25:41.390+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.649 seconds
+[2023-07-08T09:26:11.764+0100] {processor.py:157} INFO - Started process (PID=16373) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:26:11.767+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:26:11.770+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:26:11.769+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:26:12.254+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:26:12.305+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:26:12.304+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:26:12.345+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:26:12.345+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:26:12.369+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.611 seconds
+[2023-07-08T09:26:42.702+0100] {processor.py:157} INFO - Started process (PID=16422) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:26:42.704+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:26:42.705+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:26:42.705+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:26:43.105+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:26:43.147+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:26:43.147+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:26:43.172+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:26:43.172+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:26:43.194+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.499 seconds
+[2023-07-08T09:27:13.614+0100] {processor.py:157} INFO - Started process (PID=16489) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:27:13.615+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:27:13.616+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:27:13.616+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:27:14.170+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:27:14.268+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:27:14.268+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:27:14.330+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:27:14.330+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:27:14.373+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.764 seconds
+[2023-07-08T09:27:44.692+0100] {processor.py:157} INFO - Started process (PID=16554) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:27:44.694+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:27:44.695+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:27:44.695+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:27:45.243+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:27:45.291+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:27:45.290+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:27:45.340+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:27:45.339+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:27:45.373+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.686 seconds
+[2023-07-08T09:28:15.697+0100] {processor.py:157} INFO - Started process (PID=16598) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:28:15.698+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:28:15.699+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:28:15.699+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:28:16.310+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:28:16.387+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:28:16.387+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:28:16.451+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:28:16.450+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:28:16.516+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.823 seconds
+[2023-07-08T09:28:46.861+0100] {processor.py:157} INFO - Started process (PID=16651) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:28:46.872+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:28:46.874+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:28:46.873+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:28:47.574+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:28:47.642+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:28:47.641+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:28:47.703+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:28:47.703+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:28:47.758+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.901 seconds
+[2023-07-08T09:29:18.083+0100] {processor.py:157} INFO - Started process (PID=16693) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:29:18.086+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:29:18.089+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:29:18.088+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:29:18.615+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:29:18.672+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:29:18.671+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:29:18.706+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:29:18.706+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:29:18.735+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.668 seconds
+[2023-07-08T09:29:49.058+0100] {processor.py:157} INFO - Started process (PID=16732) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:29:49.060+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:29:49.061+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:29:49.061+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:29:49.444+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:29:49.481+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:29:49.480+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:29:49.514+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:29:49.514+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:29:49.533+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.481 seconds
+[2023-07-08T09:30:19.913+0100] {processor.py:157} INFO - Started process (PID=16796) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:30:19.914+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:30:19.915+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:30:19.915+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:30:20.466+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:30:20.529+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:30:20.529+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:30:20.576+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:30:20.576+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:30:20.612+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.707 seconds
+[2023-07-08T09:30:51.139+0100] {processor.py:157} INFO - Started process (PID=16829) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:30:51.140+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:30:51.141+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:30:51.141+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:30:51.606+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:30:51.648+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:30:51.647+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:30:51.690+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:30:51.689+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:30:51.714+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.581 seconds
+[2023-07-08T09:31:22.089+0100] {processor.py:157} INFO - Started process (PID=16857) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:31:22.090+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:31:22.091+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:31:22.091+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:31:22.465+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:31:22.503+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:31:22.502+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:31:22.533+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:31:22.533+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:31:22.551+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.466 seconds
+[2023-07-08T09:31:52.929+0100] {processor.py:157} INFO - Started process (PID=16889) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:31:52.933+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:31:52.936+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:31:52.935+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:31:53.544+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:31:53.598+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:31:53.597+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:31:53.643+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:31:53.643+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:31:53.665+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.750 seconds
+[2023-07-08T09:32:24.184+0100] {processor.py:157} INFO - Started process (PID=17015) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:32:24.188+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:32:24.191+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:32:24.190+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:32:24.628+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:32:24.680+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:32:24.680+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:32:24.742+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:32:24.741+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:32:24.763+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.595 seconds
+[2023-07-08T09:32:55.095+0100] {processor.py:157} INFO - Started process (PID=17043) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:32:55.096+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:32:55.097+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:32:55.097+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:32:55.491+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:32:55.540+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:32:55.539+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:32:55.574+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:32:55.574+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:32:55.594+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.504 seconds
+[2023-07-08T09:33:25.956+0100] {processor.py:157} INFO - Started process (PID=17076) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:33:25.959+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:33:25.962+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:33:25.961+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:33:26.355+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:33:26.397+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:33:26.396+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:33:26.429+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:33:26.429+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:33:26.452+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.507 seconds
+[2023-07-08T09:33:56.822+0100] {processor.py:157} INFO - Started process (PID=17117) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:33:56.823+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:33:56.825+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:33:56.825+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:33:57.261+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:33:57.301+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:33:57.300+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:33:57.329+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:33:57.329+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:33:57.350+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.535 seconds
+[2023-07-08T09:34:27.683+0100] {processor.py:157} INFO - Started process (PID=17191) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:34:27.684+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:34:27.686+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:34:27.685+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:34:28.139+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:34:28.184+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:34:28.183+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:34:28.207+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:34:28.207+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:34:28.223+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.545 seconds
+[2023-07-08T09:34:58.560+0100] {processor.py:157} INFO - Started process (PID=17285) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:34:58.561+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:34:58.562+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:34:58.562+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:34:59.004+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:34:59.045+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:34:59.045+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:34:59.076+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:34:59.075+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:34:59.094+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.538 seconds
+[2023-07-08T09:35:29.428+0100] {processor.py:157} INFO - Started process (PID=17371) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:35:29.430+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:35:29.432+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:35:29.432+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:35:29.912+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:35:29.979+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:35:29.979+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:35:30.011+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:35:30.011+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:35:30.034+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.615 seconds
+[2023-07-08T09:36:00.396+0100] {processor.py:157} INFO - Started process (PID=17429) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:36:00.398+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:36:00.399+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:36:00.399+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:36:00.798+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:36:00.837+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:36:00.837+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:36:00.866+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:36:00.866+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:36:00.890+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.500 seconds
+[2023-07-08T09:36:31.244+0100] {processor.py:157} INFO - Started process (PID=17469) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:36:31.245+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:36:31.246+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:36:31.246+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:36:31.599+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:36:31.640+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:36:31.640+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:36:31.674+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:36:31.674+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:36:31.695+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.456 seconds
+[2023-07-08T09:37:02.065+0100] {processor.py:157} INFO - Started process (PID=17505) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:37:02.067+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:37:02.070+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:37:02.069+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:37:02.548+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:37:02.591+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:37:02.590+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:37:02.622+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:37:02.622+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:37:02.646+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.594 seconds
+[2023-07-08T09:37:33.005+0100] {processor.py:157} INFO - Started process (PID=17571) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:37:33.006+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:37:33.007+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:37:33.007+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:37:33.490+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:37:33.543+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:37:33.542+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:37:33.586+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:37:33.585+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:37:33.619+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.618 seconds
+[2023-07-08T09:38:03.941+0100] {processor.py:157} INFO - Started process (PID=17620) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:38:03.943+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:38:03.944+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:38:03.944+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:38:04.503+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:38:04.547+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:38:04.547+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:38:04.583+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:38:04.583+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:38:04.609+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.673 seconds
+[2023-07-08T09:38:35.045+0100] {processor.py:157} INFO - Started process (PID=17656) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:38:35.053+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:38:35.057+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:38:35.057+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:38:35.502+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:38:35.551+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:38:35.550+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:38:35.593+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:38:35.592+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:38:35.618+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.586 seconds
+[2023-07-08T09:39:05.951+0100] {processor.py:157} INFO - Started process (PID=17760) to work on /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:39:05.952+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py for tasks to queue
+[2023-07-08T09:39:05.953+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:39:05.953+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:39:06.524+0100] {processor.py:836} INFO - DAG(s) dict_keys(['update_current_data_10']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py
+[2023-07-08T09:39:06.588+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:39:06.587+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-07-08T09:39:06.626+0100] {logging_mixin.py:149} INFO - [2023-07-08T09:39:06.626+0100] {dag.py:3486} INFO - Setting next_dagrun for update_current_data_10 to 2023-07-08T08:20:00+00:00, run_after=2023-07-08T08:40:00+00:00
+[2023-07-08T09:39:06.654+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py took 0.708 seconds

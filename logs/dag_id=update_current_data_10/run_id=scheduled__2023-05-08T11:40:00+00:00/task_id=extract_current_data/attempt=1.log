@@ -1,0 +1,41 @@
+[2023-07-05T11:29:08.835+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: update_current_data_10.extract_current_data scheduled__2023-05-08T11:40:00+00:00 [queued]>
+[2023-07-05T11:29:08.844+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: update_current_data_10.extract_current_data scheduled__2023-05-08T11:40:00+00:00 [queued]>
+[2023-07-05T11:29:08.844+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 3
+[2023-07-05T11:29:08.856+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): extract_current_data> on 2023-05-08 11:40:00+00:00
+[2023-07-05T11:29:08.860+0100] {standard_task_runner.py:57} INFO - Started process 95334 to run task
+[2023-07-05T11:29:08.864+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'update_current_data_10', 'extract_current_data', 'scheduled__2023-05-08T11:40:00+00:00', '--job-id', '1083', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py', '--cfg-path', '/tmp/tmp8lii8xzq']
+[2023-07-05T11:29:08.865+0100] {standard_task_runner.py:85} INFO - Job 1083: Subtask extract_current_data
+[2023-07-05T11:29:08.928+0100] {task_command.py:410} INFO - Running <TaskInstance: update_current_data_10.extract_current_data scheduled__2023-05-08T11:40:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-05T11:29:09.024+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='update_current_data_10' AIRFLOW_CTX_TASK_ID='extract_current_data' AIRFLOW_CTX_EXECUTION_DATE='2023-05-08T11:40:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-08T11:40:00+00:00'
+[2023-07-05T11:29:09.410+0100] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/models.py", line 971, in json
+    return complexjson.loads(self.text, **kwargs)
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/dags/update_current_dags.py", line 30, in extract_data
+    save_current_pd_csv()
+  File "/home/haboubi/Desktop/api/API_weather/./dags/current_data_fetch.py", line 100, in save_current_pd_csv
+    df,location_df=create_current_data_pd_total(location_df,city=c)
+  File "/home/haboubi/Desktop/api/API_weather/./dags/current_data_fetch.py", line 46, in create_current_data_pd_total
+    data=day_data=r.json()["current"]
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/requests/models.py", line 975, in json
+    raise RequestsJSONDecodeError(e.msg, e.doc, e.pos)
+requests.exceptions.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+[2023-07-05T11:29:09.444+0100] {taskinstance.py:1345} INFO - Marking task as UP_FOR_RETRY. dag_id=update_current_data_10, task_id=extract_current_data, execution_date=20230508T114000, start_date=20230705T102908, end_date=20230705T102909
+[2023-07-05T11:29:09.456+0100] {standard_task_runner.py:104} ERROR - Failed to execute job 1083 for task extract_current_data (Expecting value: line 1 column 1 (char 0); 95334)
+[2023-07-05T11:29:09.477+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-07-05T11:29:09.507+0100] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

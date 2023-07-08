@@ -1,0 +1,17 @@
+[2023-06-29T05:13:03.179+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: our_first_dag_v1.first_dag_baby manual__2023-06-29T04:12:59.933895+00:00 [queued]>
+[2023-06-29T05:13:03.188+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: our_first_dag_v1.first_dag_baby manual__2023-06-29T04:12:59.933895+00:00 [queued]>
+[2023-06-29T05:13:03.188+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 6
+[2023-06-29T05:13:03.205+0100] {taskinstance.py:1327} INFO - Executing <Task(BashOperator): first_dag_baby> on 2023-06-29 04:12:59.933895+00:00
+[2023-06-29T05:13:03.212+0100] {standard_task_runner.py:57} INFO - Started process 46491 to run task
+[2023-06-29T05:13:03.217+0100] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'our_first_dag_v1', 'first_dag_baby', 'manual__2023-06-29T04:12:59.933895+00:00', '--job-id', '10', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/our_new_dag.py', '--cfg-path', '/tmp/tmpz_36074a']
+[2023-06-29T05:13:03.219+0100] {standard_task_runner.py:85} INFO - Job 10: Subtask first_dag_baby
+[2023-06-29T05:13:03.285+0100] {task_command.py:410} INFO - Running <TaskInstance: our_first_dag_v1.first_dag_baby manual__2023-06-29T04:12:59.933895+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-06-29T05:13:03.341+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='our_first_dag_v1' AIRFLOW_CTX_TASK_ID='first_dag_baby' AIRFLOW_CTX_EXECUTION_DATE='2023-06-29T04:12:59.933895+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-06-29T04:12:59.933895+00:00'
+[2023-06-29T05:13:03.342+0100] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2023-06-29T05:13:03.343+0100] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo hello world, this is the first task we launch']
+[2023-06-29T05:13:03.349+0100] {subprocess.py:86} INFO - Output:
+[2023-06-29T05:13:03.350+0100] {subprocess.py:93} INFO - hello world, this is the first task we launch
+[2023-06-29T05:13:03.350+0100] {subprocess.py:97} INFO - Command exited with return code 0
+[2023-06-29T05:13:03.366+0100] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=our_first_dag_v1, task_id=first_dag_baby, execution_date=20230629T041259, start_date=20230629T041303, end_date=20230629T041303
+[2023-06-29T05:13:03.390+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-06-29T05:13:03.421+0100] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

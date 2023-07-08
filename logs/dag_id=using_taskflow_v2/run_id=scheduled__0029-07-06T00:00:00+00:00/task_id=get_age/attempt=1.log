@@ -1,0 +1,26 @@
+[2023-06-30T04:18:55.883+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: using_taskflow_v2.get_age scheduled__0029-07-06T00:00:00+00:00 [queued]>
+[2023-06-30T04:18:55.889+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: using_taskflow_v2.get_age scheduled__0029-07-06T00:00:00+00:00 [queued]>
+[2023-06-30T04:18:55.890+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 6
+[2023-06-30T04:18:55.902+0100] {taskinstance.py:1327} INFO - Executing <Task(_PythonDecoratedOperator): get_age> on 0029-07-06 00:00:00+00:00
+[2023-06-30T04:18:55.905+0100] {standard_task_runner.py:57} INFO - Started process 29715 to run task
+[2023-06-30T04:18:55.908+0100] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'using_taskflow_v2', 'get_age', 'scheduled__0029-07-06T00:00:00+00:00', '--job-id', '187', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/dag_create_py_api_taskflow.py', '--cfg-path', '/tmp/tmpw5t3rzfu']
+[2023-06-30T04:18:55.909+0100] {standard_task_runner.py:85} INFO - Job 187: Subtask get_age
+[2023-06-30T04:18:55.942+0100] {task_command.py:410} INFO - Running <TaskInstance: using_taskflow_v2.get_age scheduled__0029-07-06T00:00:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-06-30T04:18:55.992+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='using_taskflow_v2' AIRFLOW_CTX_TASK_ID='get_age' AIRFLOW_CTX_EXECUTION_DATE='0029-07-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__0029-07-06T00:00:00+00:00'
+[2023-06-30T04:18:55.993+0100] {python.py:183} INFO - Done. Returned value was: 18
+[2023-06-30T04:18:56.005+0100] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=using_taskflow_v2, task_id=get_age, execution_date=290706T000000, start_date=20230630T031855, end_date=20230630T031856
+[2023-06-30T04:18:56.040+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-06-30T04:18:56.072+0100] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2023-06-30T04:21:14.944+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: using_taskflow_v2.get_age scheduled__0029-07-06T00:00:00+00:00 [queued]>
+[2023-06-30T04:21:14.950+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: using_taskflow_v2.get_age scheduled__0029-07-06T00:00:00+00:00 [queued]>
+[2023-06-30T04:21:14.950+0100] {taskinstance.py:1308} INFO - Starting attempt 1 of 6
+[2023-06-30T04:21:14.962+0100] {taskinstance.py:1327} INFO - Executing <Task(_PythonDecoratedOperator): get_age> on 0029-07-06 00:00:00+00:00
+[2023-06-30T04:21:14.965+0100] {standard_task_runner.py:57} INFO - Started process 31375 to run task
+[2023-06-30T04:21:14.968+0100] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'using_taskflow_v2', 'get_age', 'scheduled__0029-07-06T00:00:00+00:00', '--job-id', '188', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/dag_create_py_api_taskflow.py', '--cfg-path', '/tmp/tmpds1viy3u']
+[2023-06-30T04:21:14.969+0100] {standard_task_runner.py:85} INFO - Job 188: Subtask get_age
+[2023-06-30T04:21:14.998+0100] {task_command.py:410} INFO - Running <TaskInstance: using_taskflow_v2.get_age scheduled__0029-07-06T00:00:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-06-30T04:21:15.045+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='using_taskflow_v2' AIRFLOW_CTX_TASK_ID='get_age' AIRFLOW_CTX_EXECUTION_DATE='0029-07-06T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__0029-07-06T00:00:00+00:00'
+[2023-06-30T04:21:15.045+0100] {python.py:183} INFO - Done. Returned value was: 18
+[2023-06-30T04:21:15.057+0100] {taskinstance.py:1345} INFO - Marking task as SUCCESS. dag_id=using_taskflow_v2, task_id=get_age, execution_date=290706T000000, start_date=20230630T032114, end_date=20230630T032115
+[2023-06-30T04:21:15.099+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 0
+[2023-06-30T04:21:15.119+0100] {taskinstance.py:2653} INFO - 1 downstream tasks scheduled from follow-on schedule check

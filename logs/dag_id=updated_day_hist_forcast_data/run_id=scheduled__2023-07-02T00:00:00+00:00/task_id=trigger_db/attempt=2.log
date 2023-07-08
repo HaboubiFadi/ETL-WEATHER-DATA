@@ -1,0 +1,142 @@
+[2023-07-05T09:17:01.175+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: updated_day_hist_forcast_data.trigger_db scheduled__2023-07-02T00:00:00+00:00 [queued]>
+[2023-07-05T09:17:01.183+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: updated_day_hist_forcast_data.trigger_db scheduled__2023-07-02T00:00:00+00:00 [queued]>
+[2023-07-05T09:17:01.184+0100] {taskinstance.py:1308} INFO - Starting attempt 2 of 3
+[2023-07-05T09:17:01.195+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): trigger_db> on 2023-07-02 00:00:00+00:00
+[2023-07-05T09:17:01.198+0100] {standard_task_runner.py:57} INFO - Started process 21964 to run task
+[2023-07-05T09:17:01.201+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'updated_day_hist_forcast_data', 'trigger_db', 'scheduled__2023-07-02T00:00:00+00:00', '--job-id', '183', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py', '--cfg-path', '/tmp/tmpj93l4zb4']
+[2023-07-05T09:17:01.203+0100] {standard_task_runner.py:85} INFO - Job 183: Subtask trigger_db
+[2023-07-05T09:17:01.269+0100] {task_command.py:410} INFO - Running <TaskInstance: updated_day_hist_forcast_data.trigger_db scheduled__2023-07-02T00:00:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-05T09:17:01.372+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='updated_day_hist_forcast_data' AIRFLOW_CTX_TASK_ID='trigger_db' AIRFLOW_CTX_EXECUTION_DATE='2023-07-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-07-02T00:00:00+00:00'
+[2023-07-05T09:17:01.378+0100] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/clsregistry.py", line 393, in _resolve_name
+    rval = d[token]
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/util/_collections.py", line 746, in __missing__
+    self[key] = val = self.creator(key)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/clsregistry.py", line 372, in _access_cls
+    return self.fallback[key]
+KeyError: 'Current'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py", line 23, in trigger_database_dag
+    locations=session.query(Location).all()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2166, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 180, in __init__
+    self._set_entities(entities)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 187, in _set_entities
+    self._raw_columns = [
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 188, in <listcomp>
+    coercions.expect(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/sql/coercions.py", line 186, in expect
+    insp._post_inspect
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 1184, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/mapper.py", line 2199, in _post_inspect
+    self._check_configure()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/mapper.py", line 1941, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/mapper.py", line 3527, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/mapper.py", line 3566, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/mapper.py", line 1958, in _post_configure_properties
+    prop.init()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/interfaces.py", line 231, in init
+    self.do_init()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/relationships.py", line 2150, in do_init
+    self._process_dependent_arguments()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/relationships.py", line 2245, in _process_dependent_arguments
+    self.target = self.entity.persist_selectable
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 1113, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/relationships.py", line 2112, in entity
+    argument = self._clsregistry_resolve_name(self.argument)()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/clsregistry.py", line 397, in _resolve_name
+    self._raise_for_name(name, err)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/clsregistry.py", line 375, in _raise_for_name
+    util.raise_(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+sqlalchemy.exc.InvalidRequestError: When initializing mapper mapped class Location->locations, expression 'Current' failed to locate a name ('Current'). If this is a class name, consider adding this relationship() to the <class 'location.Location'> class after both dependent classes have been defined.
+[2023-07-05T09:17:01.396+0100] {taskinstance.py:1345} INFO - Marking task as UP_FOR_RETRY. dag_id=updated_day_hist_forcast_data, task_id=trigger_db, execution_date=20230702T000000, start_date=20230705T081701, end_date=20230705T081701
+[2023-07-05T09:17:01.408+0100] {standard_task_runner.py:104} ERROR - Failed to execute job 183 for task trigger_db (When initializing mapper mapped class Location->locations, expression 'Current' failed to locate a name ('Current'). If this is a class name, consider adding this relationship() to the <class 'location.Location'> class after both dependent classes have been defined.; 21964)
+[2023-07-05T09:17:01.454+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-07-05T09:17:01.486+0100] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2023-07-05T09:51:59.762+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: updated_day_hist_forcast_data.trigger_db scheduled__2023-07-02T00:00:00+00:00 [queued]>
+[2023-07-05T09:51:59.771+0100] {taskinstance.py:1103} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: updated_day_hist_forcast_data.trigger_db scheduled__2023-07-02T00:00:00+00:00 [queued]>
+[2023-07-05T09:51:59.771+0100] {taskinstance.py:1308} INFO - Starting attempt 2 of 3
+[2023-07-05T09:51:59.781+0100] {taskinstance.py:1327} INFO - Executing <Task(PythonOperator): trigger_db> on 2023-07-02 00:00:00+00:00
+[2023-07-05T09:51:59.785+0100] {standard_task_runner.py:57} INFO - Started process 32154 to run task
+[2023-07-05T09:51:59.788+0100] {standard_task_runner.py:84} INFO - Running: ['***', 'tasks', 'run', 'updated_day_hist_forcast_data', 'trigger_db', 'scheduled__2023-07-02T00:00:00+00:00', '--job-id', '202', '--raw', '--subdir', '/home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py', '--cfg-path', '/tmp/tmphuc4_l43']
+[2023-07-05T09:51:59.789+0100] {standard_task_runner.py:85} INFO - Job 202: Subtask trigger_db
+[2023-07-05T09:51:59.852+0100] {task_command.py:410} INFO - Running <TaskInstance: updated_day_hist_forcast_data.trigger_db scheduled__2023-07-02T00:00:00+00:00 [running]> on host haboubi-VivoBook-15-ASUS-Laptop-X540UB
+[2023-07-05T09:51:59.946+0100] {taskinstance.py:1545} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='haboubi' AIRFLOW_CTX_DAG_ID='updated_day_hist_forcast_data' AIRFLOW_CTX_TASK_ID='trigger_db' AIRFLOW_CTX_EXECUTION_DATE='2023-07-02T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='2' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-07-02T00:00:00+00:00'
+[2023-07-05T09:51:59.952+0100] {taskinstance.py:1824} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/clsregistry.py", line 393, in _resolve_name
+    rval = d[token]
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/util/_collections.py", line 746, in __missing__
+    self[key] = val = self.creator(key)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/clsregistry.py", line 372, in _access_cls
+    return self.fallback[key]
+KeyError: 'Current'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 181, in execute
+    return_value = self.execute_callable()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/operators/python.py", line 198, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/dags/update_day_hist.py", line 23, in trigger_database_dag
+    locations=session.query(Location).all()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2166, in query
+    return self._query_cls(entities, self, **kwargs)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 180, in __init__
+    self._set_entities(entities)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 187, in _set_entities
+    self._raw_columns = [
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/query.py", line 188, in <listcomp>
+    coercions.expect(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/sql/coercions.py", line 186, in expect
+    insp._post_inspect
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 1184, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/mapper.py", line 2199, in _post_inspect
+    self._check_configure()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/mapper.py", line 1941, in _check_configure
+    _configure_registries({self.registry}, cascade=True)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/mapper.py", line 3527, in _configure_registries
+    _do_configure_registries(registries, cascade)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/mapper.py", line 3566, in _do_configure_registries
+    mapper._post_configure_properties()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/mapper.py", line 1958, in _post_configure_properties
+    prop.init()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/interfaces.py", line 231, in init
+    self.do_init()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/relationships.py", line 2150, in do_init
+    self._process_dependent_arguments()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/relationships.py", line 2245, in _process_dependent_arguments
+    self.target = self.entity.persist_selectable
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 1113, in __get__
+    obj.__dict__[self.__name__] = result = self.fget(obj)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/relationships.py", line 2112, in entity
+    argument = self._clsregistry_resolve_name(self.argument)()
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/clsregistry.py", line 397, in _resolve_name
+    self._raise_for_name(name, err)
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/orm/clsregistry.py", line 375, in _raise_for_name
+    util.raise_(
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+sqlalchemy.exc.InvalidRequestError: When initializing mapper mapped class Location->locations, expression 'Current' failed to locate a name ('Current'). If this is a class name, consider adding this relationship() to the <class 'location.Location'> class after both dependent classes have been defined.
+[2023-07-05T09:51:59.968+0100] {taskinstance.py:1345} INFO - Marking task as UP_FOR_RETRY. dag_id=updated_day_hist_forcast_data, task_id=trigger_db, execution_date=20230702T000000, start_date=20230705T085159, end_date=20230705T085159
+[2023-07-05T09:51:59.978+0100] {standard_task_runner.py:104} ERROR - Failed to execute job 202 for task trigger_db (When initializing mapper mapped class Location->locations, expression 'Current' failed to locate a name ('Current'). If this is a class name, consider adding this relationship() to the <class 'location.Location'> class after both dependent classes have been defined.; 32154)
+[2023-07-05T09:52:00.000+0100] {local_task_job_runner.py:225} INFO - Task exited with return code 1
+[2023-07-05T09:52:00.035+0100] {taskinstance.py:2653} INFO - 0 downstream tasks scheduled from follow-on schedule check

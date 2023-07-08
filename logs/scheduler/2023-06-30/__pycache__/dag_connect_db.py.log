@@ -1,0 +1,530 @@
+[2023-06-30T10:16:28.197+0100] {processor.py:157} INFO - Started process (PID=130861) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:16:28.198+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:16:28.199+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:16:28.199+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:16:28.204+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:16:28.202+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py", line 18
+    postgres_conn_id='postgres_localhost'
+                     
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2023-06-30T10:16:28.205+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:16:28.243+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.050 seconds
+[2023-06-30T10:16:58.921+0100] {processor.py:157} INFO - Started process (PID=131128) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:16:58.926+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:16:58.928+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:16:58.928+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:16:58.936+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:16:58.934+0100] {dagbag.py:350} ERROR - Failed to import: /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+Traceback (most recent call last):
+  File "/home/haboubi/Desktop/api/API_weather/api_env/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py", line 18
+    postgres_conn_id='postgres_localhost'
+                     
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+[2023-06-30T10:16:58.937+0100] {processor.py:838} WARNING - No viable dags retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:16:58.984+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.075 seconds
+[2023-06-30T10:17:01.452+0100] {processor.py:157} INFO - Started process (PID=131145) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:17:01.453+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:17:01.454+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:17:01.453+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:17:01.569+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:17:01.739+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:17:01.739+0100] {manager.py:504} INFO - Created Permission View: can delete on DAG:cnt_to_db
+[2023-06-30T10:17:01.752+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:17:01.751+0100] {manager.py:504} INFO - Created Permission View: can read on DAG:cnt_to_db
+[2023-06-30T10:17:01.761+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:17:01.761+0100] {manager.py:504} INFO - Created Permission View: can edit on DAG:cnt_to_db
+[2023-06-30T10:17:01.780+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:17:01.779+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:17:01.792+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:17:01.792+0100] {dag.py:2747} INFO - Creating ORM DAG for cnt_to_db
+[2023-06-30T10:17:01.808+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:17:01.808+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:17:01.832+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.384 seconds
+[2023-06-30T10:17:32.277+0100] {processor.py:157} INFO - Started process (PID=131471) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:17:32.279+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:17:32.280+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:17:32.280+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:17:32.295+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:17:32.333+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:17:32.332+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:17:32.357+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:17:32.357+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:17:32.373+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.104 seconds
+[2023-06-30T10:18:02.745+0100] {processor.py:157} INFO - Started process (PID=131678) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:18:02.748+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:18:02.751+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:18:02.750+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:18:02.780+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:18:02.827+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:18:02.827+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:18:02.852+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:18:02.852+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:18:02.874+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.145 seconds
+[2023-06-30T10:18:33.161+0100] {processor.py:157} INFO - Started process (PID=131938) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:18:33.162+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:18:33.162+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:18:33.162+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:18:33.174+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:18:33.215+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:18:33.215+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:18:33.241+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:18:33.241+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:18:33.264+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.108 seconds
+[2023-06-30T10:19:03.698+0100] {processor.py:157} INFO - Started process (PID=132205) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:19:03.700+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:19:03.701+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:19:03.700+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:19:03.724+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:19:03.798+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:19:03.798+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:19:03.852+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:19:03.852+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:19:03.883+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.192 seconds
+[2023-06-30T10:19:34.249+0100] {processor.py:157} INFO - Started process (PID=132230) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:19:34.251+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:19:34.252+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:19:34.251+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:19:34.266+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:19:34.313+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:19:34.313+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:19:34.350+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:19:34.349+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:19:34.375+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.130 seconds
+[2023-06-30T10:20:04.683+0100] {processor.py:157} INFO - Started process (PID=132267) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:20:04.687+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:20:04.690+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:20:04.689+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:20:04.714+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:20:04.758+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:20:04.758+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:20:04.783+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:20:04.782+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:20:04.805+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.135 seconds
+[2023-06-30T10:20:35.220+0100] {processor.py:157} INFO - Started process (PID=132290) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:20:35.224+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:20:35.227+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:20:35.226+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:20:35.268+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:20:35.334+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:20:35.333+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:20:35.359+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:20:35.359+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:20:35.376+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.168 seconds
+[2023-06-30T10:21:05.762+0100] {processor.py:157} INFO - Started process (PID=132326) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:21:05.763+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:21:05.764+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:21:05.764+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:21:05.779+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:21:05.823+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:21:05.823+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:21:05.863+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:21:05.863+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:21:05.886+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.130 seconds
+[2023-06-30T10:21:27.937+0100] {processor.py:157} INFO - Started process (PID=132349) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:21:27.941+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:21:27.944+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:21:27.943+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:21:27.987+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:21:28.157+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:21:28.156+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:21:28.185+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:21:28.184+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:21:28.207+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.286 seconds
+[2023-06-30T10:21:40.311+0100] {processor.py:157} INFO - Started process (PID=132398) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:21:40.314+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:21:40.317+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:21:40.316+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:21:40.367+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:21:40.414+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:21:40.413+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:21:40.447+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:21:40.447+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:21:40.486+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.187 seconds
+[2023-06-30T10:21:59.531+0100] {processor.py:157} INFO - Started process (PID=132421) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:21:59.533+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:21:59.534+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:21:59.534+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:21:59.558+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:21:59.777+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:21:59.777+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:21:59.808+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:21:59.808+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:21:59.841+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.318 seconds
+[2023-06-30T10:22:21.111+0100] {processor.py:157} INFO - Started process (PID=132458) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:22:21.113+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:22:21.115+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:22:21.115+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:22:21.141+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:22:21.180+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:22:21.179+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:22:21.212+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:22:21.212+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:22:21.238+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.141 seconds
+[2023-06-30T10:22:51.618+0100] {processor.py:157} INFO - Started process (PID=132551) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:22:51.620+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:22:51.622+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:22:51.621+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:22:51.642+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:22:51.785+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:22:51.785+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:22:51.821+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:22:51.821+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:22:51.856+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.254 seconds
+[2023-06-30T10:23:22.178+0100] {processor.py:157} INFO - Started process (PID=132893) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:23:22.182+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:23:22.185+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:23:22.185+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:23:22.214+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:23:22.256+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:23:22.256+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:23:22.282+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:23:22.282+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:23:22.300+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.136 seconds
+[2023-06-30T10:23:52.747+0100] {processor.py:157} INFO - Started process (PID=133043) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:23:52.750+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:23:52.751+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:23:52.751+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:23:52.771+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:23:52.809+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:23:52.808+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:23:52.830+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:23:52.830+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:23:52.846+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.113 seconds
+[2023-06-30T10:24:23.342+0100] {processor.py:157} INFO - Started process (PID=133306) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:24:23.343+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:24:23.344+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:24:23.343+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:24:23.353+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:24:23.386+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:24:23.386+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:24:23.411+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:24:23.410+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:24:23.426+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.087 seconds
+[2023-06-30T10:24:53.747+0100] {processor.py:157} INFO - Started process (PID=133334) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:24:53.748+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:24:53.749+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:24:53.749+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:24:53.760+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:24:53.793+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:24:53.793+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:24:53.814+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:24:53.814+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:24:53.830+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.086 seconds
+[2023-06-30T10:25:02.925+0100] {processor.py:157} INFO - Started process (PID=133347) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:25:02.928+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:25:02.930+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:25:02.929+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:25:02.948+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:25:02.995+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:25:02.995+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:25:03.025+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:25:03.025+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:25:03.055+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.136 seconds
+[2023-06-30T10:25:33.296+0100] {processor.py:157} INFO - Started process (PID=133416) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:25:33.299+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:25:33.301+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:25:33.301+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:25:33.319+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:25:33.352+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:25:33.352+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:25:33.373+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:25:33.372+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:25:33.389+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.104 seconds
+[2023-06-30T10:26:01.801+0100] {processor.py:157} INFO - Started process (PID=133440) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:26:01.802+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:26:01.803+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:26:01.803+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:26:01.823+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:26:02.010+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:26:02.010+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:26:02.048+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:26:02.047+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:26:02.078+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.283 seconds
+[2023-06-30T10:26:32.318+0100] {processor.py:157} INFO - Started process (PID=133796) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:26:32.319+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:26:32.320+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:26:32.320+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:26:32.329+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:26:32.373+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:26:32.372+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:26:32.396+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:26:32.396+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:26:32.415+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.101 seconds
+[2023-06-30T10:27:02.933+0100] {processor.py:157} INFO - Started process (PID=133949) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:27:02.935+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:27:02.936+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:27:02.936+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:27:02.948+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:27:02.986+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:27:02.986+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:27:03.008+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:27:03.008+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:27:03.026+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.099 seconds
+[2023-06-30T10:27:24.331+0100] {processor.py:157} INFO - Started process (PID=133979) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:27:24.334+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:27:24.337+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:27:24.336+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:27:24.376+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:27:24.643+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:27:24.642+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:27:24.683+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:27:24.683+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:27:24.718+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.399 seconds
+[2023-06-30T10:27:54.891+0100] {processor.py:157} INFO - Started process (PID=134230) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:27:54.895+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:27:54.897+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:27:54.897+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:27:54.927+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:27:54.973+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:27:54.973+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:27:55.001+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:27:55.001+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:27:55.022+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.142 seconds
+[2023-06-30T10:28:06.095+0100] {processor.py:157} INFO - Started process (PID=134328) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:28:06.099+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:28:06.102+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:28:06.101+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:28:06.147+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:28:06.354+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:28:06.354+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:28:06.380+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:28:06.379+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:28:06.409+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.325 seconds
+[2023-06-30T10:28:36.537+0100] {processor.py:157} INFO - Started process (PID=134393) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:28:36.539+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:28:36.541+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:28:36.540+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:28:36.569+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:28:36.656+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:28:36.655+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:28:36.691+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:28:36.691+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:28:36.718+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.190 seconds
+[2023-06-30T10:29:07.056+0100] {processor.py:157} INFO - Started process (PID=134536) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:29:07.058+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:29:07.059+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:29:07.059+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:29:07.079+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:29:07.142+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:29:07.142+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:29:07.189+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:29:07.188+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:29:07.220+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.172 seconds
+[2023-06-30T10:29:37.568+0100] {processor.py:157} INFO - Started process (PID=134756) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:29:37.570+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:29:37.571+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:29:37.571+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:29:37.587+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:29:37.641+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:29:37.641+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:29:37.684+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:29:37.684+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:29:37.715+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.153 seconds
+[2023-06-30T10:30:08.133+0100] {processor.py:157} INFO - Started process (PID=135124) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:30:08.135+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:30:08.136+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:30:08.136+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:30:08.150+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:30:08.197+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:30:08.197+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:30:08.230+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:30:08.230+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:30:08.262+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.133 seconds
+[2023-06-30T10:30:23.578+0100] {processor.py:157} INFO - Started process (PID=135179) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:30:23.581+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:30:23.584+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:30:23.584+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:30:23.629+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:30:23.846+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:30:23.846+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:30:23.885+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:30:23.885+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:30:23.921+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.360 seconds
+[2023-06-30T10:30:33.012+0100] {processor.py:157} INFO - Started process (PID=135183) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:30:33.013+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:30:33.014+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:30:33.014+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:30:33.041+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:30:33.077+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:30:33.077+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:30:33.116+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:30:33.115+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:30:33.144+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.138 seconds
+[2023-06-30T10:31:03.525+0100] {processor.py:157} INFO - Started process (PID=135257) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:31:03.528+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:31:03.530+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:31:03.530+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:31:03.565+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:31:03.734+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:31:03.733+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:31:03.767+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:31:03.767+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:31:03.796+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.290 seconds
+[2023-06-30T10:31:34.082+0100] {processor.py:157} INFO - Started process (PID=135497) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:31:34.083+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:31:34.085+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:31:34.085+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:31:34.100+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:31:34.143+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:31:34.143+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:31:34.170+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:31:34.170+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:31:34.192+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.114 seconds
+[2023-06-30T10:31:52.588+0100] {processor.py:157} INFO - Started process (PID=135545) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:31:52.589+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:31:52.591+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:31:52.590+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:31:52.608+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:31:52.784+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:31:52.783+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:31:52.816+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:31:52.816+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:31:52.848+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.267 seconds
+[2023-06-30T10:32:10.995+0100] {processor.py:157} INFO - Started process (PID=135654) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:32:10.997+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:32:10.998+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:32:10.998+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:32:11.020+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:32:11.188+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:32:11.187+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:32:11.199+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:32:11.199+0100] {dag.py:2747} INFO - Creating ORM DAG for cnt_to_db
+[2023-06-30T10:32:11.211+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:32:11.211+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:32:11.232+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.245 seconds
+[2023-06-30T10:32:41.436+0100] {processor.py:157} INFO - Started process (PID=135905) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:32:41.440+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:32:41.444+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:32:41.443+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:32:41.481+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:32:41.528+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:32:41.528+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:32:41.552+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:32:41.551+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:32:41.573+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.155 seconds
+[2023-06-30T10:33:12.016+0100] {processor.py:157} INFO - Started process (PID=135965) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:33:12.017+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:33:12.019+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:33:12.018+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:33:12.041+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:33:12.086+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:33:12.085+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:33:12.112+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:33:12.112+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:33:12.131+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.125 seconds
+[2023-06-30T10:33:18.349+0100] {processor.py:157} INFO - Started process (PID=135986) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:33:18.350+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:33:18.352+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:33:18.351+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:33:18.373+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:33:18.579+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:33:18.578+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:33:18.611+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:33:18.611+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:33:18.640+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.297 seconds
+[2023-06-30T10:33:48.911+0100] {processor.py:157} INFO - Started process (PID=136238) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:33:48.914+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:33:48.916+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:33:48.915+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:33:48.958+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:33:49.009+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:33:49.009+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:33:49.040+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:33:49.040+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:33:49.062+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.165 seconds
+[2023-06-30T10:34:19.496+0100] {processor.py:157} INFO - Started process (PID=136287) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:34:19.497+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:34:19.498+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:34:19.498+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:34:19.513+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:34:19.561+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:34:19.561+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:34:19.591+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:34:19.591+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:34:19.616+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.124 seconds
+[2023-06-30T10:34:20.606+0100] {processor.py:157} INFO - Started process (PID=136294) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:34:20.607+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:34:20.609+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:34:20.609+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:34:20.624+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:34:20.795+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:34:20.794+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:34:20.832+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:34:20.832+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:34:20.865+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.265 seconds
+[2023-06-30T10:34:51.110+0100] {processor.py:157} INFO - Started process (PID=136556) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:34:51.111+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:34:51.112+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:34:51.112+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:34:51.122+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:34:51.159+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:34:51.159+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:34:51.184+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:34:51.184+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:34:51.205+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.100 seconds
+[2023-06-30T10:35:21.758+0100] {processor.py:157} INFO - Started process (PID=136584) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:35:21.760+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:35:21.761+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:35:21.760+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:35:21.777+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:35:21.836+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:35:21.835+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:35:21.875+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:35:21.875+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:35:21.905+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.154 seconds
+[2023-06-30T10:35:52.367+0100] {processor.py:157} INFO - Started process (PID=136685) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:35:52.368+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:35:52.369+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:35:52.368+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:35:52.385+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:35:52.443+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:35:52.443+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:35:52.472+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:35:52.471+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:35:52.497+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.135 seconds
+[2023-06-30T10:36:22.921+0100] {processor.py:157} INFO - Started process (PID=136878) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:36:22.928+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:36:22.930+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:36:22.930+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:36:22.961+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:36:23.029+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:36:23.029+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:36:23.061+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:36:23.060+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:36:23.089+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.179 seconds
+[2023-06-30T10:36:53.549+0100] {processor.py:157} INFO - Started process (PID=136949) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:36:53.551+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:36:53.552+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:36:53.552+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:36:53.565+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:36:53.603+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:36:53.602+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:36:53.628+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:36:53.628+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:36:53.647+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.103 seconds
+[2023-06-30T10:37:24.194+0100] {processor.py:157} INFO - Started process (PID=137032) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:37:24.196+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:37:24.197+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:37:24.197+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:37:24.220+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:37:24.276+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:37:24.276+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:37:24.320+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:37:24.320+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:37:24.346+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.188 seconds
+[2023-06-30T10:37:54.738+0100] {processor.py:157} INFO - Started process (PID=137598) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:37:54.740+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:37:54.741+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:37:54.741+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:37:54.759+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:37:54.817+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:37:54.817+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:37:54.860+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:37:54.860+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:37:54.887+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.155 seconds
+[2023-06-30T10:38:25.397+0100] {processor.py:157} INFO - Started process (PID=137725) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:38:25.398+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:38:25.398+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:38:25.398+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:38:25.412+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:38:25.461+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:38:25.460+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:38:25.488+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:38:25.488+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:38:25.515+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.123 seconds
+[2023-06-30T10:38:30.500+0100] {processor.py:157} INFO - Started process (PID=137728) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:38:30.503+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:38:30.504+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:38:30.504+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:38:30.527+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:38:30.721+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:38:30.720+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:38:30.747+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:38:30.747+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:38:30.771+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.288 seconds
+[2023-06-30T10:38:36.629+0100] {processor.py:157} INFO - Started process (PID=137737) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:38:36.630+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:38:36.631+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:38:36.631+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:38:36.647+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:38:36.682+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:38:36.682+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:38:36.716+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:38:36.716+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:38:36.747+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.123 seconds
+[2023-06-30T10:39:03.053+0100] {processor.py:157} INFO - Started process (PID=137934) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:39:03.054+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:39:03.054+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:39:03.054+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:39:03.070+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:39:03.266+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:39:03.265+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:39:03.279+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:39:03.279+0100] {dag.py:2747} INFO - Creating ORM DAG for cnt_to_db
+[2023-06-30T10:39:03.296+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:39:03.296+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:39:03.319+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.269 seconds
+[2023-06-30T10:39:33.700+0100] {processor.py:157} INFO - Started process (PID=138236) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:39:33.703+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:39:33.705+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:39:33.705+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:39:33.737+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:39:33.788+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:39:33.788+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:39:33.819+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:39:33.819+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:39:33.838+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.158 seconds
+[2023-06-30T10:40:04.294+0100] {processor.py:157} INFO - Started process (PID=138304) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:40:04.296+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:40:04.297+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:40:04.297+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:40:04.314+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:40:04.358+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:40:04.357+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:40:04.383+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:40:04.383+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:40:04.409+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.123 seconds
+[2023-06-30T10:40:11.460+0100] {processor.py:157} INFO - Started process (PID=138314) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:40:11.462+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:40:11.463+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:40:11.463+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:40:11.487+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:40:11.686+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:40:11.685+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:40:11.719+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:40:11.719+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:40:11.747+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.296 seconds
+[2023-06-30T10:40:41.923+0100] {processor.py:157} INFO - Started process (PID=138425) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:40:41.925+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:40:41.926+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:40:41.925+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:40:41.945+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:40:42.006+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:40:42.006+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:40:42.048+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:40:42.048+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:40:42.089+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.172 seconds
+[2023-06-30T10:41:12.472+0100] {processor.py:157} INFO - Started process (PID=138637) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:41:12.474+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:41:12.475+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:41:12.475+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:41:12.489+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:41:12.530+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:41:12.530+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:41:12.560+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:41:12.560+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:41:12.582+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.115 seconds
+[2023-06-30T10:41:43.045+0100] {processor.py:157} INFO - Started process (PID=138705) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:41:43.046+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:41:43.048+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:41:43.047+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:41:43.060+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:41:43.105+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:41:43.105+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:41:43.137+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:41:43.136+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:41:43.158+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.116 seconds
+[2023-06-30T10:42:13.504+0100] {processor.py:157} INFO - Started process (PID=138745) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:42:13.505+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:42:13.506+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:42:13.506+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:42:13.522+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:42:13.563+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:42:13.563+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:42:13.592+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:42:13.592+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:42:13.615+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.116 seconds
+[2023-06-30T10:42:44.093+0100] {processor.py:157} INFO - Started process (PID=138773) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:42:44.097+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:42:44.100+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:42:44.100+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:42:44.145+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:42:44.206+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:42:44.206+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:42:44.249+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:42:44.248+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:42:44.282+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.201 seconds
+[2023-06-30T10:42:46.184+0100] {processor.py:157} INFO - Started process (PID=138783) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:42:46.186+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:42:46.187+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:42:46.187+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:42:46.204+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:42:46.417+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:42:46.416+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:42:46.449+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:42:46.449+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:42:46.483+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.305 seconds
+[2023-06-30T10:43:16.790+0100] {processor.py:157} INFO - Started process (PID=138854) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:43:16.792+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:43:16.794+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:43:16.793+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:43:16.819+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:43:16.873+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:43:16.873+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:43:16.912+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:43:16.912+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:43:16.937+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.154 seconds
+[2023-06-30T10:43:20.917+0100] {processor.py:157} INFO - Started process (PID=138865) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:43:20.918+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:43:20.919+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:43:20.919+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:43:20.934+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:43:20.984+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:43:20.983+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:43:21.020+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:43:21.020+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:43:21.054+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.148 seconds
+[2023-06-30T10:43:51.418+0100] {processor.py:157} INFO - Started process (PID=139167) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:43:51.419+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:43:51.420+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:43:51.419+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:43:51.432+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:43:51.475+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:43:51.475+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:43:51.502+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:43:51.502+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:43:51.523+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.110 seconds
+[2023-06-30T10:44:21.858+0100] {processor.py:157} INFO - Started process (PID=139572) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:44:21.859+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:44:21.860+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:44:21.860+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:44:21.877+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:44:21.934+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:44:21.934+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:44:21.973+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:44:21.972+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:44:22.001+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.148 seconds
+[2023-06-30T10:44:52.286+0100] {processor.py:157} INFO - Started process (PID=139814) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:44:52.289+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:44:52.290+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:44:52.290+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:44:52.305+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:44:52.341+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:44:52.341+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:44:52.362+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:44:52.362+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:44:52.379+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.103 seconds
+[2023-06-30T10:45:22.700+0100] {processor.py:157} INFO - Started process (PID=139838) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:45:22.701+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:45:22.701+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:45:22.701+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:45:22.711+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:45:22.746+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:45:22.746+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:45:22.767+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:45:22.767+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:45:22.782+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.086 seconds
+[2023-06-30T10:45:53.171+0100] {processor.py:157} INFO - Started process (PID=139964) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:45:53.174+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:45:53.177+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:45:53.176+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:45:53.194+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:45:53.228+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:45:53.228+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:45:53.249+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:45:53.249+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:45:53.264+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.104 seconds
+[2023-06-30T10:46:23.605+0100] {processor.py:157} INFO - Started process (PID=140031) to work on /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:46:23.606+0100] {processor.py:826} INFO - Processing file /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py for tasks to queue
+[2023-06-30T10:46:23.607+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:46:23.606+0100] {dagbag.py:541} INFO - Filling up the DagBag from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:46:23.616+0100] {processor.py:836} INFO - DAG(s) dict_keys(['cnt_to_db']) retrieved from /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py
+[2023-06-30T10:46:23.649+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:46:23.649+0100] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-06-30T10:46:23.670+0100] {logging_mixin.py:149} INFO - [2023-06-30T10:46:23.670+0100] {dag.py:3486} INFO - Setting next_dagrun for cnt_to_db to 2023-06-30T00:00:00+00:00, run_after=2023-07-01T00:00:00+00:00
+[2023-06-30T10:46:23.685+0100] {processor.py:179} INFO - Processing /home/haboubi/Desktop/api/API_weather/dags/__pycache__/dag_connect_db.py took 0.083 seconds
