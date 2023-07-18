@@ -8,7 +8,7 @@ The project leverages Apache Airflow to schedule and execute the pipeline tasks,
 Key Features:
 
 # Data ingestion: 
-Fetches weather data from external API , such as OpenWeatherMap, using Python requests library.
+Fetches weather data from external API , such as [Weather Api], using Python requests library.
 # Data preprocessing:
 Cleans and transforms the raw weather data,handle missing and duplicated data 
 # Database integration: 
